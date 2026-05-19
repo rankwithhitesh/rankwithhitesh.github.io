@@ -306,6 +306,48 @@ color:#aaaaaa;
 }
 
 /* =========================
+STATS
+========================= */
+
+.stats{
+background:var(--bg);
+padding-top:40px;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:20px;
+}
+
+.stat-box{
+background:#111;
+padding:45px;
+border-radius:24px;
+text-align:center;
+border:1px solid #1f1f1f;
+transition:0.3s;
+}
+
+.stat-box:hover{
+transform:translateY(-8px);
+border-color:#333;
+box-shadow:var(--shadow);
+}
+
+.stat-box h2{
+font-size:56px;
+margin-bottom:10px;
+line-height:1;
+}
+
+.stat-box p{
+font-size:18px;
+color:var(--text-muted);
+}
+  
+/* =========================
 EXPERIENCE
 ========================= */
 
@@ -334,6 +376,36 @@ font-size:18px;
 color:#c5c5c5;
 }
 
+/* =========================
+CTA SECTION
+========================= */
+
+.cta{
+background:#080808;
+}
+
+.cta-box{
+background:linear-gradient(135deg,#111,#1b1b1b);
+padding:70px 40px;
+border-radius:32px;
+text-align:center;
+border:1px solid var(--border);
+}
+
+.cta-box h2{
+font-size:clamp(34px,5vw,54px);
+margin-bottom:20px;
+line-height:1.2;
+}
+
+.cta-box p{
+max-width:750px;
+margin:auto;
+font-size:20px;
+color:var(--text-muted);
+margin-bottom:35px;
+}
+  
 /* =========================
 CONTACT
 ========================= */
@@ -740,6 +812,32 @@ A beginner-friendly guide to technical SEO and website optimization.
 
 </section>
 
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="container">
+
+<div class="cta-box">
+
+<h2>
+Want to Grow Your Website Organically?
+</h2>
+
+<p>
+Let’s improve your search visibility and build long-term organic growth with smart SEO strategies.
+</p>
+
+<a href="#contact" class="btn">
+Get In Touch
+</a>
+
+</div>
+
+</div>
+
+</section>
+  
 <!-- CONTACT -->
 
 <section class="contact" id="contact">
