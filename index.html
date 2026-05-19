@@ -6,21 +6,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Hitesh Rathod - SEO Executive & Digital Marketing Specialist</title>
+<title>Rank With Hitesh - SEO & Digital Marketing Blog</title>
 
-<meta name="description" content="Hitesh Rathod is an SEO Executive with 3+ years of experience in SEO, keyword research, on-page SEO, and digital marketing strategies helping businesses grow online.">
+<meta name="description" content="Rank With Hitesh is a personal SEO and digital marketing blog by Hitesh Rathod sharing SEO strategies, keyword research, Google updates, blogging tips, and organic growth insights.">
 
-<meta name="keywords" content="SEO Expert, SEO Executive, Digital Marketing, On Page SEO, Keyword Research, Ahmedabad SEO Expert">
+<meta name="keywords" content="SEO Blog, SEO Expert, Digital Marketing Blog, Keyword Research, Technical SEO, Blogging Tips, SEO Ahmedabad">
 
 <meta name="author" content="Hitesh Rathod">
 
 <link rel="canonical" href="https://rankwithhitesh.github.io/">
 
-<meta property="og:title" content="Hitesh Rathod - SEO Executive">
-<meta property="og:description" content="SEO Executive with 3+ years of experience in SEO and digital marketing.">
+<meta property="og:title" content="Rank With Hitesh - SEO & Digital Marketing Blog">
+<meta property="og:description" content="SEO strategies, blogging insights, keyword research, and digital marketing learnings by Hitesh Rathod.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://rankwithhitesh.github.io/">  
-  
+<meta property="og:url" content="https://rankwithhitesh.github.io/">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -35,12 +35,11 @@ ROOT VARIABLES
 :root{
 --bg:#050505;
 --bg-secondary:#0b0b0b;
---bg-card:#141414;
---bg-card-hover:#1b1b1b;
+--card:#141414;
+--card-hover:#1b1b1b;
 --text:#ffffff;
---text-muted:#bdbdbd;
---border:#222222;
---border-light:#333333;
+--muted:#bdbdbd;
+--border:#222;
 --shadow:0 15px 40px rgba(255,255,255,0.05);
 }
 
@@ -71,8 +70,6 @@ CONTAINER
 width:min(1150px,100%);
 margin:auto;
 padding-inline:20px;
-position:relative;
-z-index:2;
 }
 
 /* =========================
@@ -88,34 +85,29 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 6%;
-background:rgba(0,0,0,0.75);
+background:rgba(0,0,0,0.78);
 backdrop-filter:blur(12px);
 border-bottom:1px solid var(--border);
 z-index:1000;
-flex-wrap:wrap;
-gap:15px;
 }
 
 .logo{
 font-size:24px;
 font-weight:700;
-letter-spacing:0.5px;
 }
 
 .nav-links{
 display:flex;
-gap:25px;
+gap:28px;
 flex-wrap:wrap;
-justify-content:center;
 }
 
 .nav-links a{
-color:var(--text);
+color:white;
 text-decoration:none;
 font-size:15px;
 font-weight:500;
 transition:0.3s;
-position:relative;
 }
 
 .nav-links a:hover{
@@ -123,7 +115,7 @@ color:#9f9f9f;
 }
 
 /* =========================
-HERO SECTION
+HERO
 ========================= */
 
 .hero{
@@ -141,13 +133,13 @@ background:linear-gradient(to bottom,#101010,#000);
 .hero::before{
 content:'';
 position:absolute;
-width:600px;
-height:600px;
+width:700px;
+height:700px;
 background:rgba(255,255,255,0.04);
 border-radius:50%;
 filter:blur(120px);
 top:-250px;
-right:-100px;
+right:-150px;
 }
 
 .hero::after{
@@ -162,10 +154,15 @@ bottom:-250px;
 left:-100px;
 }
 
+.hero-content{
+position:relative;
+z-index:2;
+}
+
 .badge{
 display:inline-block;
 padding:10px 22px;
-border:1px solid var(--border-light);
+border:1px solid #2d2d2d;
 border-radius:50px;
 background:#111;
 font-size:14px;
@@ -174,21 +171,19 @@ margin-bottom:35px;
 }
 
 .hero h1{
-font-size:clamp(42px,8vw,76px);
+font-size:clamp(44px,8vw,82px);
 line-height:1.1;
-margin-bottom:30px;
 font-weight:800;
+margin-bottom:30px;
 max-width:1000px;
 margin-inline:auto;
-word-break:break-word;
 }
 
 .hero p{
-font-size:clamp(17px,2vw,22px);
-color:var(--text-muted);
+font-size:clamp(18px,2vw,22px);
+color:var(--muted);
 max-width:850px;
 margin:auto;
-padding-inline:10px;
 }
 
 /* =========================
@@ -217,13 +212,12 @@ box-shadow:0 10px 30px rgba(255,255,255,0.08);
 
 .btn:hover{
 transform:translateY(-4px);
-box-shadow:0 15px 40px rgba(255,255,255,0.15);
 }
 
 .btn-outline{
 background:transparent;
 color:white;
-border:1px solid var(--border-light);
+border:1px solid #333;
 }
 
 .btn-outline:hover{
@@ -231,18 +225,18 @@ background:#111;
 }
 
 /* =========================
-GENERAL SECTIONS
+SECTIONS
 ========================= */
 
 section{
-padding:130px 20px;
+padding:120px 20px;
 }
 
 .section-title{
-font-size:clamp(34px,5vw,48px);
+font-size:clamp(36px,5vw,50px);
 font-weight:800;
 text-align:center;
-margin-bottom:30px;
+margin-bottom:25px;
 line-height:1.2;
 }
 
@@ -251,56 +245,42 @@ max-width:900px;
 margin:auto;
 text-align:center;
 font-size:20px;
-color:var(--text-muted);
+color:var(--muted);
 }
 
 /* =========================
-ABOUT
+GRID CARDS
 ========================= */
 
-.about{
-background:var(--bg);
-}
-
-/* =========================
-SERVICES / CARDS
-========================= */
-
-.skills{
-background:var(--bg-secondary);
-}
-
-.skills-grid{
+.grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
 margin-top:60px;
-width:100%;
 }
 
-.skill-card{
-background:var(--bg-card);
+.card{
+background:var(--card);
 padding:38px;
 border-radius:24px;
 border:1px solid #1f1f1f;
 transition:0.4s;
-height:100%;
 }
 
-.skill-card:hover{
+.card:hover{
 transform:translateY(-8px);
-border-color:#363636;
-background:var(--bg-card-hover);
+background:var(--card-hover);
+border-color:#333;
 box-shadow:var(--shadow);
 }
 
-.skill-card h3{
+.card h3{
 font-size:24px;
-margin-bottom:14px;
+margin-bottom:15px;
 line-height:1.3;
 }
 
-.skill-card p{
+.card p{
 font-size:16px;
 color:#aaaaaa;
 }
@@ -310,8 +290,7 @@ STATS
 ========================= */
 
 .stats{
-background:var(--bg);
-padding-top:40px;
+background:#080808;
 }
 
 .stats-grid{
@@ -339,59 +318,15 @@ box-shadow:var(--shadow);
 .stat-box h2{
 font-size:56px;
 margin-bottom:10px;
-line-height:1;
 }
 
 .stat-box p{
 font-size:18px;
-color:var(--text-muted);
+color:var(--muted);
 }
 
 /* =========================
-BLOG PREVIEW
-========================= */
-
-.blogs-preview{
-background:var(--bg);
-}
-
-.blogs-preview a{
-text-decoration:none;
-color:white;
-display:block;
-}
-  
-/* =========================
-EXPERIENCE
-========================= */
-
-.experience{
-background:#080808;
-}
-
-.exp-box{
-width:100%;
-max-width:950px;
-margin:auto;
-background:#151515;
-padding:50px;
-border-radius:28px;
-border:1px solid #202020;
-}
-
-.exp-box h3{
-font-size:36px;
-margin-bottom:18px;
-line-height:1.3;
-}
-
-.exp-box p{
-font-size:18px;
-color:#c5c5c5;
-}
-
-/* =========================
-CTA SECTION
+CTA
 ========================= */
 
 .cta{
@@ -399,15 +334,15 @@ background:#080808;
 }
 
 .cta-box{
-background:linear-gradient(135deg,#111,#1b1b1b);
+background:linear-gradient(135deg,#111,#1a1a1a);
 padding:70px 40px;
 border-radius:32px;
 text-align:center;
-border:1px solid var(--border);
+border:1px solid #222;
 }
 
 .cta-box h2{
-font-size:clamp(34px,5vw,54px);
+font-size:clamp(34px,5vw,58px);
 margin-bottom:20px;
 line-height:1.2;
 }
@@ -416,17 +351,17 @@ line-height:1.2;
 max-width:750px;
 margin:auto;
 font-size:20px;
-color:var(--text-muted);
+color:var(--muted);
 margin-bottom:35px;
 }
-  
+
 /* =========================
 CONTACT
 ========================= */
 
 .contact{
-background:var(--bg-secondary);
 text-align:center;
+background:#0b0b0b;
 }
 
 .contact p{
@@ -442,27 +377,27 @@ FOOTER
 footer{
 padding:35px;
 text-align:center;
-border-top:1px solid var(--border);
+border-top:1px solid #1d1d1d;
 color:#777;
 font-size:15px;
-background:#050505;
 }
 
 /* =========================
-MOBILE RESPONSIVE
+MOBILE
 ========================= */
 
 @media(max-width:768px){
 
 .navbar{
 justify-content:center;
-text-align:center;
 padding:18px 5%;
+gap:14px;
 }
 
 .logo{
-font-size:20px;
 width:100%;
+text-align:center;
+font-size:20px;
 }
 
 .nav-links{
@@ -491,16 +426,12 @@ flex-direction:column;
 align-items:center;
 }
 
-.exp-box{
-padding:35px 25px;
-}
-
-.exp-box h3{
-font-size:28px;
-}
-
-.skill-card{
+.card{
 padding:30px;
+}
+
+.cta-box{
+padding:50px 25px;
 }
 
 }
@@ -523,8 +454,8 @@ Rank With Hitesh
 
 <a href="#">Home</a>
 <a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="blog.html">Blog</a>
+<a href="#learn">Learn</a>
+<a href="#blog">Blog</a>
 <a href="#contact">Contact</a>
 
 </div>
@@ -535,18 +466,18 @@ Rank With Hitesh
 
 <section class="hero">
 
-<div class="container">
+<div class="container hero-content">
 
 <div class="badge">
 SEO Executive • 3+ Years Experience
 </div>
 
 <h1>
-Helping Businesses Rank Higher on Google
+SEO Strategies, Digital Marketing Insights & Organic Growth
 </h1>
 
 <p>
-Hi, I am Hitesh Rathod. I specialize in SEO and digital marketing strategies that help businesses improve visibility, grow organic traffic, and build a stronger online presence.
+Hi, I’m Hitesh Rathod — an SEO Executive passionate about SEO, digital marketing, blogging, and content growth. I created Rank With Hitesh to share practical SEO learnings, Google update insights, and digital marketing strategies.
 </p>
 
 <div class="btn-group">
@@ -555,8 +486,8 @@ Hi, I am Hitesh Rathod. I specialize in SEO and digital marketing strategies tha
 Contact Me
 </a>
 
-<a href="#skills" class="btn btn-outline">
-View Skills
+<a href="#blog" class="btn btn-outline">
+Read Blogs
 </a>
 
 </div>
@@ -567,154 +498,82 @@ View Skills
 
 <!-- ABOUT -->
 
-<section class="about" id="about">
+<section id="about">
 
 <div class="container">
 
 <h2 class="section-title">
-About Me
+About Rank With Hitesh
 </h2>
 
 <p class="section-desc">
-I am an SEO Executive with 3+ years of experience in search engine optimization, keyword research, on-page SEO, and digital marketing. I help websites improve rankings and generate organic growth using smart SEO strategies.
+I’m Hitesh Rathod, an SEO Executive with 3+ years of experience working on SEO, keyword research, on-page optimization, technical SEO, and content strategies.
+
+Rank With Hitesh is my personal platform where I share SEO learnings, blogging insights, digital marketing strategies, and practical experiences from the industry.
+
+My goal is to continuously learn, document, and share useful knowledge that helps websites improve online visibility and long-term organic growth.
 </p>
 
 </div>
 
 </section>
 
-<!-- SKILLS -->
+<!-- WHAT YOU'LL LEARN -->
 
-<section class="skills" id="skills">
-
-<div class="container">
-
-<h2 class="section-title">
-My Skills
-</h2>
-
-<div class="skills-grid">
-
-<div class="skill-card">
-
-<h3>SEO</h3>
-
-<p>
-On-Page SEO, Technical SEO & Website Optimization
-</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Keyword Research</h3>
-
-<p>
-Finding profitable and low competition keywords
-</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Digital Marketing</h3>
-
-<p>
-Helping brands grow online using smart strategies
-</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Content Strategy</h3>
-
-<p>
-SEO-friendly content planning and optimization
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- EXPERIENCE -->
-
-<section class="experience" id="experience">
+<section id="learn">
 
 <div class="container">
 
 <h2 class="section-title">
-Experience
+What You'll Learn Here
 </h2>
 
-<div class="exp-box">
+<div class="grid">
+
+<div class="card">
 
 <h3>
-3+ Years Experience in SEO
+SEO Basics
 </h3>
 
 <p>
-Worked on multiple SEO projects including keyword optimization, ranking improvements, content optimization, and organic traffic growth strategies.
+Learn the fundamentals of search engine optimization and how Google rankings work.
 </p>
 
 </div>
 
-</div>
+<div class="card">
 
-</section>
-
-<!-- SERVICES -->
-
-<section class="skills" id="services">
-
-<div class="container">
-
-<h2 class="section-title">
-Services
-</h2>
-
-<div class="skills-grid">
-
-<div class="skill-card">
-
-<h3>On-Page SEO</h3>
+<h3>
+Keyword Research
+</h3>
 
 <p>
-Website optimization for better rankings and search visibility.
+Discover how to find better keywords and content opportunities for organic growth.
 </p>
 
 </div>
 
-<div class="skill-card">
+<div class="card">
 
-<h3>Keyword Research</h3>
+<h3>
+Technical SEO
+</h3>
 
 <p>
-Finding high-potential keywords with better ranking opportunities.
+Understand website performance, indexing, crawling, and technical optimization.
 </p>
 
 </div>
 
-<div class="skill-card">
+<div class="card">
 
-<h3>SEO Audit</h3>
-
-<p>
-Analyzing website SEO issues and improving overall performance.
-</p>
-
-</div>
-
-<div class="skill-card">
-
-<h3>Content Optimization</h3>
+<h3>
+Digital Marketing
+</h3>
 
 <p>
-Improving content structure for users and search engines.
+Explore practical digital marketing insights, blogging techniques, and SEO strategies.
 </p>
 
 </div>
@@ -734,93 +593,128 @@ Improving content structure for users and search engines.
 <div class="stats-grid">
 
 <div class="stat-box">
+
 <h2>3+</h2>
-<p>Years Experience</p>
+
+<p>
+Years Experience
+</p>
+
 </div>
 
 <div class="stat-box">
+
 <h2>50+</h2>
-<p>SEO Projects</p>
+
+<p>
+SEO Projects
+</p>
+
 </div>
 
 <div class="stat-box">
+
 <h2>100%</h2>
-<p>Focused on Organic Growth</p>
-</div>
+
+<p>
+Focused on Organic Growth
+</p>
 
 </div>
 
 </div>
 
-</section>  
-  
-<!-- WHY CHOOSE ME -->
+</div>
 
-<section class="about">
+</section>
+
+<!-- WHY WORK WITH ME -->
+
+<section>
 
 <div class="container">
 
 <h2 class="section-title">
-Why Work With Me?
+Why Follow Rank With Hitesh?
 </h2>
 
 <p class="section-desc">
-I focus on practical SEO strategies that help businesses improve search visibility, organic traffic, and long-term online growth. My approach combines keyword research, on-page optimization, and content strategy to achieve better results.
+This website is focused on practical SEO knowledge, blogging insights, and real digital marketing learnings. Instead of only theory, I aim to share useful strategies, experiences, industry updates, and growth-focused SEO content that can actually help website owners and marketers.
 </p>
 
 </div>
 
 </section>
 
-<!-- BLOG -->
+<!-- BLOG SECTION -->
 
-<section class="skills" id="blog">
+<section id="blog">
 
 <div class="container">
 
 <h2 class="section-title">
-Latest Blog Posts
+Latest SEO & Marketing Insights
 </h2>
 
-<div class="skills-grid">
+<div class="grid">
 
-<div class="skill-card">
+<div class="card">
 
 <h3>
-What is On-Page SEO?
+Understanding Google Rankings
 </h3>
 
 <p>
-Learn the basics of on-page SEO and how it helps websites rank higher on Google.
+Learn how search engines rank webpages and what factors influence visibility.
 </p>
 
 </div>
 
-<div class="skill-card">
+<div class="card">
 
 <h3>
-Keyword Research Guide
+Keyword Research Strategies
 </h3>
 
 <p>
-Understand how to find low competition and high traffic keywords for SEO.
+Explore practical methods to find low competition and high intent keywords.
 </p>
 
 </div>
 
-<div class="skill-card">
+<div class="card">
 
 <h3>
-Technical SEO Basics
+Technical SEO Fundamentals
 </h3>
 
 <p>
-A beginner-friendly guide to technical SEO and website optimization.
+Understand indexing, crawling, page speed, and technical SEO improvements.
 </p>
 
 </div>
 
 </div>
+
+</div>
+
+</section>
+
+<!-- FUTURE VISION -->
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">
+Building Rank With Hitesh
+</h2>
+
+<p class="section-desc">
+I’m building Rank With Hitesh as a long-term SEO and digital marketing platform where I can share blog posts, SEO experiments, Google update learnings, practical growth strategies, and real industry insights.
+
+As I continue learning and growing in the SEO field, this website will also continue evolving with valuable content for marketers, bloggers, businesses, and website owners.
+</p>
 
 </div>
 
@@ -839,7 +733,7 @@ Want to Grow Your Website Organically?
 </h2>
 
 <p>
-Let’s improve your search visibility and build long-term organic growth with smart SEO strategies.
+Let’s improve your online visibility, SEO performance, and long-term organic growth with practical SEO strategies and digital marketing insights.
 </p>
 
 <a href="#contact" class="btn">
@@ -852,56 +746,6 @@ Get In Touch
 
 </section>
 
- <!-- BLOG PREVIEW -->
-
-<section class="blogs-preview">
-
-<div class="container">
-
-<h2 class="section-title">
-Latest SEO Insights
-</h2>
-
-<div class="skills-grid">
-
-<a href="blog.html">
-
-<div class="skill-card">
-
-<h3>
-SEO Tips & Guides
-</h3>
-
-<p>
-Read SEO insights, keyword research guides, and digital marketing strategies.
-</p>
-
-</div>
-
-</a>
-
-<a href="blog.html">
-
-<div class="skill-card">
-
-<h3>
-Digital Marketing Blogs
-</h3>
-
-<p>
-Explore practical digital marketing tips and organic growth strategies.
-</p>
-
-</div>
-
-</a>
-
-</div>
-
-</div>
-
-</section> 
-  
 <!-- CONTACT -->
 
 <section class="contact" id="contact">
@@ -913,7 +757,7 @@ Contact
 </h2>
 
 <p>
-Let’s connect and grow your business online.
+Let’s connect and talk about SEO, blogging, and digital marketing.
 </p>
 
 <a href="https://wa.me/91YOURNUMBER" class="btn">
@@ -924,9 +768,11 @@ WhatsApp Me
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
 
-© 2026 Rank With Hitesh
+© 2026 Rank With Hitesh • SEO & Digital Marketing Blog
 
 </footer>
 
