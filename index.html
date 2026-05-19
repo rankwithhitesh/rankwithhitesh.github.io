@@ -24,7 +24,7 @@ font-family:'Inter',sans-serif;
 }
 
 body{
-background:#070707;
+background:#050505;
 color:white;
 line-height:1.7;
 overflow-x:hidden;
@@ -35,19 +35,20 @@ overflow-x:hidden;
 .navbar{
 position:fixed;
 top:0;
+left:0;
 width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:22px 8%;
-background:rgba(0,0,0,0.65);
+background:rgba(0,0,0,0.75);
 backdrop-filter:blur(12px);
 z-index:1000;
-border-bottom:1px solid #1c1c1c;
+border-bottom:1px solid #1a1a1a;
 }
 
 .logo{
-font-size:24px;
+font-size:26px;
 font-weight:700;
 }
 
@@ -59,26 +60,27 @@ gap:35px;
 .nav-links a{
 color:white;
 text-decoration:none;
-font-size:16px;
+font-size:15px;
+font-weight:500;
 transition:0.3s;
 }
 
 .nav-links a:hover{
-color:#9f9f9f;
+color:#a5a5a5;
 }
 
 /* HERO */
 
 .hero{
-height:100vh;
+min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
-padding:20px;
+padding:170px 20px 100px;
 position:relative;
 overflow:hidden;
-background:linear-gradient(to bottom,#111,#000);
+background:linear-gradient(to bottom,#101010,#000);
 }
 
 .hero::before{
@@ -101,12 +103,12 @@ height:500px;
 background:rgba(255,255,255,0.03);
 border-radius:50%;
 filter:blur(100px);
-bottom:-200px;
+bottom:-250px;
 left:-100px;
 }
 
 .container{
-max-width:1100px;
+max-width:1150px;
 margin:auto;
 position:relative;
 z-index:2;
@@ -114,26 +116,28 @@ z-index:2;
 
 .badge{
 display:inline-block;
-padding:10px 20px;
-border:1px solid #2c2c2c;
+padding:10px 22px;
+border:1px solid #2d2d2d;
 border-radius:50px;
 background:#111;
 font-size:14px;
-color:#d1d1d1;
-margin-bottom:30px;
+color:#d5d5d5;
+margin-bottom:35px;
 }
 
 .hero h1{
-font-size:78px;
+font-size:76px;
 line-height:1.1;
-margin-bottom:25px;
+margin-bottom:30px;
 font-weight:800;
+max-width:1000px;
+margin-inline:auto;
 }
 
 .hero p{
 font-size:22px;
 color:#bdbdbd;
-max-width:800px;
+max-width:850px;
 margin:auto;
 }
 
@@ -142,7 +146,7 @@ display:flex;
 justify-content:center;
 gap:20px;
 flex-wrap:wrap;
-margin-top:40px;
+margin-top:45px;
 }
 
 .btn{
@@ -172,31 +176,37 @@ border:1px solid #333;
 background:#111;
 }
 
-/* GENERAL SECTION */
+/* GENERAL */
 
 section{
-padding:110px 20px;
+padding:130px 20px;
 }
 
 .section-title{
-font-size:46px;
-margin-bottom:25px;
-text-align:center;
+font-size:48px;
 font-weight:800;
+text-align:center;
+margin-bottom:30px;
 }
 
 .section-desc{
-max-width:850px;
+max-width:900px;
 margin:auto;
 text-align:center;
 font-size:20px;
 color:#c5c5c5;
 }
 
+/* ABOUT */
+
+.about{
+background:#050505;
+}
+
 /* SKILLS */
 
 .skills{
-background:#0d0d0d;
+background:#0b0b0b;
 }
 
 .skills-grid{
@@ -208,47 +218,45 @@ margin-top:60px;
 
 .skill-card{
 background:#141414;
-padding:35px;
+padding:38px;
 border-radius:24px;
-border:1px solid #202020;
+border:1px solid #1f1f1f;
 transition:0.4s;
-position:relative;
-overflow:hidden;
 }
 
 .skill-card:hover{
 transform:translateY(-8px);
-border-color:#3d3d3d;
+border-color:#363636;
 box-shadow:0 15px 40px rgba(255,255,255,0.05);
 }
 
 .skill-card h3{
 font-size:24px;
-margin-bottom:12px;
+margin-bottom:14px;
 }
 
 .skill-card p{
-color:#a5a5a5;
 font-size:16px;
+color:#aaaaaa;
 }
 
 /* EXPERIENCE */
 
 .experience{
-background:#090909;
+background:#080808;
 }
 
 .exp-box{
-max-width:850px;
+max-width:950px;
 margin:auto;
 background:#151515;
-padding:45px;
+padding:50px;
 border-radius:28px;
 border:1px solid #202020;
 }
 
 .exp-box h3{
-font-size:34px;
+font-size:36px;
 margin-bottom:18px;
 }
 
@@ -260,14 +268,14 @@ color:#c5c5c5;
 /* CONTACT */
 
 .contact{
+background:#0b0b0b;
 text-align:center;
-background:#0d0d0d;
 }
 
 .contact p{
 font-size:20px;
-color:#c8c8c8;
-margin-bottom:30px;
+color:#c7c7c7;
+margin-bottom:35px;
 }
 
 /* FOOTER */
@@ -275,7 +283,7 @@ margin-bottom:30px;
 footer{
 padding:35px;
 text-align:center;
-border-top:1px solid #1f1f1f;
+border-top:1px solid #1d1d1d;
 color:#777;
 font-size:15px;
 }
@@ -288,16 +296,24 @@ font-size:15px;
 padding:18px 5%;
 }
 
+.logo{
+font-size:20px;
+}
+
 .nav-links{
-gap:18px;
+gap:16px;
 }
 
 .nav-links a{
-font-size:14px;
+font-size:13px;
+}
+
+.hero{
+padding-top:160px;
 }
 
 .hero h1{
-font-size:52px;
+font-size:44px;
 }
 
 .hero p{
@@ -305,7 +321,7 @@ font-size:18px;
 }
 
 .section-title{
-font-size:36px;
+font-size:38px;
 }
 
 .section-desc{
@@ -315,6 +331,14 @@ font-size:18px;
 .btn-group{
 flex-direction:column;
 align-items:center;
+}
+
+.exp-box{
+padding:35px;
+}
+
+.exp-box h3{
+font-size:28px;
 }
 
 }
@@ -360,8 +384,7 @@ Helping Businesses Rank Higher on Google
 </h1>
 
 <p>
-Hi, I am Hitesh Rathod.  
-I specialize in SEO and digital marketing strategies that help businesses improve visibility, grow organic traffic, and build a stronger online presence.
+Hi, I am Hitesh Rathod. I specialize in SEO and digital marketing strategies that help businesses improve visibility, grow organic traffic, and build a stronger online presence.
 </p>
 
 <div class="btn-group">
@@ -391,8 +414,7 @@ About Me
 </h2>
 
 <p class="section-desc">
-I am an SEO Executive with 3+ years of experience in search engine optimization, keyword research, on-page SEO, and digital marketing.  
-I enjoy helping websites improve rankings and generate organic growth through smart SEO strategies.
+I am an SEO Executive with 3+ years of experience in search engine optimization, keyword research, on-page SEO, and digital marketing. I help websites improve rankings and generate organic growth using smart SEO strategies.
 </p>
 
 </div>
