@@ -30,6 +30,8 @@ background:var(--bg);
 color:var(--text);
 overflow-x:hidden;
 line-height:1.7;
+-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
 }
 
 img{
