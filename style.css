@@ -189,6 +189,11 @@ MOBILE MENU
 display:none;
 font-size:28px;
 cursor:pointer;
+transition:0.3s;
+}
+
+.menu-toggle:hover{
+opacity:0.7;
 }
 
 /* =========================
@@ -207,6 +212,10 @@ background:
 radial-gradient(circle at top right, rgba(255,255,255,0.08), transparent 30%),
 radial-gradient(circle at bottom left, rgba(255,255,255,0.05), transparent 30%),
 var(--bg);
+}
+
+.blogs-hero{
+min-height:70vh;
 }
 
 .hero-content{
@@ -268,6 +277,8 @@ font-size:18px;
 color:var(--muted);
 line-height:1.9;
 }
+
+
 
 /* =========================
 BUTTONS
@@ -439,6 +450,7 @@ font-size:22px;
 margin-bottom:14px;
 line-height:1.45;
 letter-spacing:-0.3px;
+min-height:64px;
 }
 
 .blog-card p{
@@ -451,6 +463,10 @@ line-height:1.8;
 text-decoration:none;
 color:white;
 font-weight:600;
+}
+
+.read-more:hover{
+opacity:0.7;
 }
 
 .empty{
@@ -559,6 +575,10 @@ MOBILE
 ========================= */
 
 @media(max-width:768px){
+
+.footer-grid{
+gap:50px;
+}  
 
 .nav-container{
 flex-wrap:wrap;
