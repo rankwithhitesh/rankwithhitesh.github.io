@@ -19,17 +19,23 @@
 
 <link rel="stylesheet" href="style.css">
 
-<!-- Google Font -->
+<!-- GOOGLE FONT -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style">
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+<!-- BREVO FORM CSS -->
+
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
 <style>
 
-/* 404 PAGE CUSTOM STYLES */
+/* 404 PAGE */
 
 .error-section{
 min-height:100vh;
@@ -105,6 +111,77 @@ transform:translateY(-5px);
 margin-top:40px;
 color:var(--muted);
 font-size:15px;
+}
+
+/* BREVO FORM */
+
+#sib-container{
+border:none !important;
+background:transparent !important;
+max-width:100% !important;
+}
+
+.sib-form{
+background:transparent !important;
+}
+
+#sib-container input::placeholder{
+font-family:'Inter',sans-serif;
+color:#9ca3af;
+}
+
+.entry__field input{
+width:100%;
+padding:14px 16px;
+border-radius:14px;
+border:1px solid rgba(255,255,255,0.15);
+background:rgba(255,255,255,0.05);
+color:white;
+font-size:15px;
+outline:none;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+.entry__label{
+display:block;
+margin-bottom:10px;
+font-size:15px !important;
+font-weight:600 !important;
+color:white !important;
+font-family:'Inter',sans-serif !important;
+}
+
+.entry__specification{
+display:block;
+margin-top:10px;
+font-size:13px !important;
+color:#9ca3af !important;
+font-family:'Inter',sans-serif !important;
+}
+
+.sib-text-form-block p{
+color:#d1d5db !important;
+font-family:'Inter',sans-serif !important;
+line-height:1.6;
+}
+
+.sib-form-block__button{
+width:100%;
+padding:14px 20px !important;
+border-radius:14px !important;
+background:white !important;
+color:black !important;
+font-family:'Inter',sans-serif !important;
+font-weight:700 !important;
+font-size:15px !important;
+cursor:pointer;
+transition:0.3s;
+border:none;
+}
+
+.sib-form-block__button:hover{
+transform:translateY(-3px);
 }
 
 </style>
@@ -284,7 +361,7 @@ Email
 
 </footer>
 
-<!-- POPUP FORM -->
+<!-- POPUP -->
 
 <div class="popup-overlay" id="popup">
 
@@ -294,23 +371,110 @@ Email
 ×
 </button>
 
-<h2>
-Get Free SEO Insights 🚀
-</h2>
+<!-- BREVO FORM -->
 
-<p>
-Join Rank With Hitesh and get practical SEO, blogging, and growth tips directly in your inbox.
+<div class="sib-form" style="text-align:center; background-color:transparent;">
+
+<div id="sib-form-container" class="sib-form-container">
+
+<div id="sib-container" class="sib-container--large sib-container--vertical">
+
+<form id="sib-form" method="POST" action="https://c4557b20.sibforms.com/serve/MUIFALNefZV0MKIWNjH9CTywXxYElB0ofsOpPNZPESSwNSohhM9CrbeT-f7bAVVaN8PCheKkm1dRhjcYPAqMhlZGeLODviBNYdf9kocx52O1-2AOq5J0dkKFP0wggQ29Ar_sc6bN6eneCGzIcjzTBjUQtpPaDb7R6syQugjtrh29Xy3aKSiGms-uga8dQvBo-FnziIbKXZxeQR-agw==">
+
+<div style="padding:8px 0;">
+
+<div class="sib-form-block" style="text-align:left;">
+
+<p style="font-size:30px; font-weight:800; color:white; margin-bottom:10px;">
+Get Free SEO Insights 🚀
 </p>
 
-<form class="popup-form" id="popup-form">
+</div>
 
-<input type="text" name="name" placeholder="Your Name" required>
+</div>
 
-<input type="email" name="email" placeholder="Your Email" required>
+<div style="padding:8px 0;">
 
-<button type="submit">
-Subscribe Now
+<div class="sib-form-block" style="text-align:left;">
+
+<div class="sib-text-form-block">
+
+<p>
+Join Rank With Hitesh and receive practical SEO, blogging, and organic growth strategies directly in your inbox.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div style="padding:8px 0;">
+
+<div class="sib-input sib-form-block">
+
+<div class="form__entry entry_block">
+
+<div class="form__label-row">
+
+<label class="entry__label" for="EMAIL" data-required="*">
+
+Enter Your Email Address
+
+</label>
+
+<div class="entry__field">
+
+<input
+class="input"
+type="email"
+id="EMAIL"
+name="EMAIL"
+autocomplete="off"
+placeholder="Your Email Address"
+data-required="true"
+required
+/>
+
+</div>
+
+</div>
+
+<label class="entry__specification">
+
+No spam. Only practical SEO tips & updates.
+
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+<div style="padding:15px 0 0;">
+
+<div class="sib-form-block" style="text-align:left;">
+
+<button
+class="sib-form-block__button sib-form-block__button-with-loader"
+form="sib-form"
+type="submit"
+>
+
+SUBSCRIBE NOW
+
 </button>
+
+</div>
+
+</div>
+
+<input type="text" name="email_address_check" value="" class="input--hidden">
+
+<input type="hidden" name="locale" value="en">
+
+<input type="hidden" name="html_type" value="simple">
 
 </form>
 
@@ -318,17 +482,13 @@ Subscribe Now
 
 </div>
 
-<!-- EMAILJS -->
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</div>
 
 <!-- JS -->
 
 <script>
-
-/* EMAILJS INIT */
-
-emailjs.init("E8AL8H-_dRffo6TRv");
 
 /* MOBILE MENU */
 
@@ -362,7 +522,7 @@ const popup = document.getElementById('popup');
 
 const closePopup = document.getElementById('close-popup');
 
-/* SHOW AFTER 1.5 SEC */
+/* SHOW POPUP */
 
 window.addEventListener('load', () => {
 
@@ -385,45 +545,6 @@ if(closePopup){
 closePopup.addEventListener('click', () => {
 
 popup.classList.remove('active');
-
-});
-
-}
-
-/* POPUP FORM SUBMIT */
-
-const popupForm = document.getElementById("popup-form");
-
-if(popupForm){
-
-popupForm.addEventListener("submit", function(e){
-
-e.preventDefault();
-
-emailjs.send("service_t52uj26","template_1euhxbg",{
-
-name:this.name.value,
-email:this.email.value
-
-})
-
-.then(() => {
-
-alert("Thank you! Your details were submitted successfully.");
-
-popupForm.reset();
-
-popup.classList.remove('active');
-
-})
-
-.catch((error) => {
-
-alert("Something went wrong.");
-
-console.log(error);
-
-});
 
 });
 
