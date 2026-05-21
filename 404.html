@@ -248,6 +248,49 @@ Email
 
 </footer>
 
+<script>
+
+/* EMAILJS INIT */
+
+emailjs.init("E8AL8H-_dRffo6TRv");
+
+/* POPUP FORM SUBMIT */
+
+const popupForm = document.getElementById("popup-form");
+
+popupForm.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+emailjs.send("service_t52uj26","template_1euhxbg",{
+
+name:this.name.value,
+email:this.email.value
+
+})
+
+.then(() => {
+
+alert("Thank you! Your details were submitted successfully.");
+
+popupForm.reset();
+
+popup.classList.remove('active');
+
+})
+
+.catch((error) => {
+
+alert("Something went wrong.");
+
+console.log(error);
+
+});
+
+});
+
+</script>
+  
 <!-- POPUP FORM -->
 
 <div class="popup-overlay" id="popup">
@@ -266,11 +309,11 @@ Get Free SEO Insights 🚀
 Join Rank With Hitesh and get practical SEO, blogging, and growth tips directly in your inbox.
 </p>
 
-<form class="popup-form">
+<form class="popup-form" id="popup-form">
 
-<input type="text" placeholder="Your Name" required>
+<input type="text" name="name" placeholder="Your Name" required>
 
-<input type="email" placeholder="Your Email" required>
+<input type="email" name="email" placeholder="Your Email" required>  
 
 <button type="submit">
 Subscribe Now
@@ -335,7 +378,7 @@ popup.classList.remove('active');
 }
 
 </script>  
-
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </body>
 
 </html>
