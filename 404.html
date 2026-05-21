@@ -13,6 +13,8 @@
 
 <meta name="theme-color" content="#050505">
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <link rel="canonical" href="https://rankwithhitesh.github.io/404.html">
 
 <link rel="stylesheet" href="style.css">
@@ -20,10 +22,15 @@
 <!-- Google Font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style">
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
+
 /* 404 PAGE CUSTOM STYLES */
+
 .error-section{
 min-height:100vh;
 display:flex;
@@ -107,42 +114,63 @@ font-size:15px;
 <body>
 
 <!-- NAVBAR -->
+
 <nav class="navbar">
+
 <div class="container nav-container">
 
-<div class="logo">Rank With Hitesh</div>
+<div class="logo">
+Rank With Hitesh
+</div>
+
 <div class="menu-toggle" id="menu-toggle">
 ☰
 </div>
+
 <div class="nav-links" id="nav-links">
+
 <a href="./">Home</a>
+
 <a href="./#about">About</a>
+
 <a href="blog.html">Blogs</a>
+
 <a href="./contact.html">Contact</a>
+
 </div>
 
 </div>
+
 </nav>
 
 <!-- 404 CONTENT -->
+
 <section class="error-section">
 
 <div class="error-box">
 
-<div class="error-code">404</div>
+<div class="error-code">
+404
+</div>
 
-<h1 class="error-title">Oops! Page Not Found</h1>
+<h1 class="error-title">
+Oops! Page Not Found
+</h1>
 
 <p class="error-text">
-The page you are looking for might have been removed, renamed, or temporarily unavailable.  
+The page you are looking for might have been removed, renamed, or temporarily unavailable.
 But don’t worry — you can still explore SEO guides, blogging strategies, and keyword research insights on our website.
 </p>
 
 <div class="error-buttons">
 
-<a href="./" class="back-home">Go to Home</a>
+<a href="./" class="back-home">
+Go to Home
+</a>
 
-<a href="blog.html" class="back-blog">Explore Blogs</a>
+<a href="blog.html" class="back-blog">
+Explore Blogs
+</a>
 
 </div>
 
@@ -187,8 +215,11 @@ Quick Links
 <div class="footer-links">
 
 <a href="./">Home</a>
+
 <a href="./#about">About</a>
+
 <a href="blog.html">Blogs</a>
+
 <a href="contact.html">Contact</a>
 
 </div>
@@ -205,8 +236,13 @@ Important Pages
 
 <div class="footer-links">
 
-<a href="privacy-policy.html">Privacy Policy</a>
-<a href="terms-and-conditions.html">Terms & Conditions</a>
+<a href="privacy-policy.html">
+Privacy Policy
+</a>
+
+<a href="terms-and-conditions.html">
+Terms & Conditions
+</a>
 
 </div>
 
@@ -222,11 +258,11 @@ Follow Me
 
 <div class="footer-links">
 
-<a href="https://linkedin.com">
+<a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
 LinkedIn
 </a>
 
-<a href="https://instagram.com">
+<a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
 Instagram
 </a>
 
@@ -248,15 +284,117 @@ Email
 
 </footer>
 
+<!-- POPUP FORM -->
+
+<div class="popup-overlay" id="popup">
+
+<div class="popup-box">
+
+<button class="popup-close" id="close-popup">
+×
+</button>
+
+<h2>
+Get Free SEO Insights 🚀
+</h2>
+
+<p>
+Join Rank With Hitesh and get practical SEO, blogging, and growth tips directly in your inbox.
+</p>
+
+<form class="popup-form" id="popup-form">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<button type="submit">
+Subscribe Now
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<!-- EMAILJS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- JS -->
+
 <script>
 
 /* EMAILJS INIT */
 
 emailjs.init("E8AL8H-_dRffo6TRv");
 
+/* MOBILE MENU */
+
+const menuToggle = document.getElementById('menu-toggle');
+
+const navLinks = document.getElementById('nav-links');
+
+if(menuToggle){
+
+menuToggle.addEventListener('click', () => {
+
+navLinks.classList.toggle('active');
+
+});
+
+}
+
+/* DYNAMIC YEAR */
+
+const year = document.getElementById("year");
+
+if(year){
+
+year.innerHTML = new Date().getFullYear();
+
+}
+
+/* POPUP */
+
+const popup = document.getElementById('popup');
+
+const closePopup = document.getElementById('close-popup');
+
+/* SHOW AFTER 1.5 SEC */
+
+window.addEventListener('load', () => {
+
+setTimeout(() => {
+
+if(popup){
+
+popup.classList.add('active');
+
+}
+
+}, 1500);
+
+});
+
+/* CLOSE POPUP */
+
+if(closePopup){
+
+closePopup.addEventListener('click', () => {
+
+popup.classList.remove('active');
+
+});
+
+}
+
 /* POPUP FORM SUBMIT */
 
 const popupForm = document.getElementById("popup-form");
+
+if(popupForm){
 
 popupForm.addEventListener("submit", function(e){
 
@@ -289,96 +427,9 @@ console.log(error);
 
 });
 
+}
+
 </script>
-  
-<!-- POPUP FORM -->
 
-<div class="popup-overlay" id="popup">
-
-<div class="popup-box">
-
-<button class="popup-close" id="close-popup">
-×
-</button>
-
-<h2>
-Get Free SEO Insights 🚀
-</h2>
-
-<p>
-Join Rank With Hitesh and get practical SEO, blogging, and growth tips directly in your inbox.
-</p>
-
-<form class="popup-form" id="popup-form">
-
-<input type="text" name="name" placeholder="Your Name" required>
-
-<input type="email" name="email" placeholder="Your Email" required>  
-
-<button type="submit">
-Subscribe Now
-</button>
-
-</form>
-
-</div>
-
-</div>
-
-<!-- JS -->
-
-<script>
-
-/* MOBILE MENU */
-
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.getElementById('nav-links');
-
-if(menuToggle){
-menuToggle.addEventListener('click', () => {
-navLinks.classList.toggle('active');
-});
-}
-
-/* DYNAMIC YEAR */
-
-const year = document.getElementById("year");
-
-if(year){
-year.innerHTML = new Date().getFullYear();
-}
-
-/* POPUP */
-
-const popup = document.getElementById('popup');
-const closePopup = document.getElementById('close-popup');
-
-/* SHOW AFTER 1.5 SEC */
-
-window.addEventListener('load', () => {
-
-setTimeout(() => {
-
-popup.classList.add('active');
-
-}, 1500);
-
-});
-
-/* CLOSE */
-
-if(closePopup){
-
-closePopup.addEventListener('click', () => {
-
-popup.classList.remove('active');
-
-});
-
-}
-
-</script>  
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </body>
-
 </html>
