@@ -213,7 +213,7 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 /* EMAILJS INIT */
 (function(){
-  emailjs.init("YOUR_PUBLIC_KEY"); // 🔴 replace this
+  emailjs.init("E8AL8H-_dRffo6TRv"); //
 })();
 
 /* FORM SUBMIT */
@@ -230,7 +230,7 @@ subject: this.subject.value,
 message: this.message.value
 };
 
-emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", data)
+emailjs.send("service_t52uj26", "template_1euhxbg", data)
 .then(() => {
 
 document.getElementById("successMsg").style.display = "block";
