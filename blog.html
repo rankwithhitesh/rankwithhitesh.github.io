@@ -356,8 +356,8 @@ Email
 id="sib-form"
 method="POST"
 action="https://c4557b20.sibforms.com/serve/MUIFALNefZV0MKIWNjH9CTywXxYElB0ofsOpPNZPESSwNSohhM9CrbeT-f7bAVVaN8PCheKkm1dRhjcYPAqMhlZGeLODviBNYdf9kocx52O1-2AOq5J0dkKFP0wggQ29Ar_sc6bN6eneCGzIcjzTBjUQtpPaDb7R6syQugjtrh29Xy3aKSiGms-uga8dQvBo-FnziIbKXZxeQR-agw=="
-target="_blank"
->
+target="hidden_iframe"
+onsubmit="showSuccessMessage(); return true;">
  
 <div style="padding:8px 0;">
 
@@ -454,6 +454,11 @@ SUBSCRIBE NOW
 
 </form>
 
+<iframe 
+name="hidden_iframe" 
+style="display:none;">
+</iframe> 
+ 
 </div>
 
 </div>
@@ -540,7 +545,15 @@ popup.classList.remove('active');
 });
 
 }
-  
+
+function showSuccessMessage(){
+
+popup.classList.remove('active');
+
+alert("Thanks for subscribing 🚀");
+
+}
+ 
 </script>
 
 <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>  
