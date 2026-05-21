@@ -993,3 +993,51 @@ max-width:100%;
 }
 
 }
+
+/* ===== POPUP FIX ===== */
+
+.popup-box input {
+color: #000 !important;
+background: #fff !important;
+border: 1px solid #ccc !important;
+font-size: 16px !important;
+}
+
+.popup-box input::placeholder {
+color: #666 !important;
+}
+
+.popup-box .entry__label {
+color: #fff !important;
+font-weight: 600;
+}
+
+.popup-box .entry__specification {
+color: #9ca3af !important;
+}
+
+.popup-box .sib-text-form-block p {
+color: #d1d5db !important;
+line-height: 1.6;
+}
+
+.popup-box button {
+width: 100%;
+background: #fff !important;
+color: #000 !important;
+border: none;
+padding: 14px;
+font-weight: 700;
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+.popup-box button:hover {
+opacity: 0.9;
+}
+
+.popup-box .sib-form-block__button {
+display: flex !important;
+justify-content: center;
+align-items: center;
+}
