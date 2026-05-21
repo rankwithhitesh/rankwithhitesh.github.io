@@ -3,8 +3,6 @@
 
 <head>
 
-<link rel="stylesheet" href="style.css"> 
-
  <meta name="google-site-verification" content="1J_gTPEAH7_wN0s6OsZraEcEhqw-11f2qowOJgB5Yh0" />
 
  <!-- Google tag (gtag.js) -->
@@ -67,7 +65,32 @@ content="SEO strategies, blogging insights, keyword research, and digital market
 <link
 href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
 rel="stylesheet">
+<link rel="stylesheet" href="style.css"> 
+ 
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta property="og:site_name" content="Rank With Hitesh">
+
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:title" content="Rank With Hitesh">
+
+<meta name="twitter:description"
+content="SEO strategies, blogging insights, keyword research, and digital marketing learnings.">
+
+<meta name="twitter:image"
+content="https://rankwithhitesh.github.io/preview.jpg">
+
+<meta name="twitter:site" content="@rankwithhitesh">
+
+<meta name="twitter:creator" content="@rankwithhitesh">
+
+<link rel="preload"
+as="image"
+href="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop"> 
+ 
 </head>
 
 <body>
@@ -559,6 +582,131 @@ Email
 
 </footer>
 
+<!-- POPUP -->
+
+<div class="popup-overlay" id="popup">
+
+<div class="popup-box">
+
+<button class="popup-close" id="close-popup">
+×
+</button>
+
+<!-- BREVO FORM -->
+
+<div class="sib-form" style="text-align:center; background-color:transparent;">
+
+<div id="sib-form-container" class="sib-form-container">
+
+<div id="sib-container" class="sib-container--large sib-container--vertical">
+
+<form id="sib-form" method="POST" action="https://c4557b20.sibforms.com/serve/MUIFALNefZV0MKIWNjH9CTywXxYElB0ofsOpPNZPESSwNSohhM9CrbeT-f7bAVVaN8PCheKkm1dRhjcYPAqMhlZGeLODviBNYdf9kocx52O1-2AOq5J0dkKFP0wggQ29Ar_sc6bN6eneCGzIcjzTBjUQtpPaDb7R6syQugjtrh29Xy3aKSiGms-uga8dQvBo-FnziIbKXZxeQR-agw==">
+
+<div style="padding:8px 0;">
+
+<div class="sib-form-block" style="text-align:left;">
+
+<p style="font-size:30px; font-weight:800; color:white; margin-bottom:10px;">
+Get Free SEO Insights 🚀
+</p>
+
+</div>
+
+</div>
+
+<div style="padding:8px 0;">
+
+<div class="sib-form-block" style="text-align:left;">
+
+<div class="sib-text-form-block">
+
+<p>
+Join Rank With Hitesh and receive practical SEO, blogging, and organic growth strategies directly in your inbox.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div style="padding:8px 0;">
+
+<div class="sib-input sib-form-block">
+
+<div class="form__entry entry_block">
+
+<div class="form__label-row">
+
+<label class="entry__label" for="EMAIL" data-required="*">
+
+Enter Your Email Address
+
+</label>
+
+<div class="entry__field">
+
+<input
+class="input"
+type="email"
+id="EMAIL"
+name="EMAIL"
+autocomplete="off"
+placeholder="Your Email Address"
+data-required="true"
+required
+/>
+
+</div>
+
+</div>
+
+<label class="entry__specification">
+
+No spam. Only practical SEO tips & updates.
+
+</label>
+
+</div>
+
+</div>
+
+</div>
+
+<div style="padding:15px 0 0;">
+
+<div class="sib-form-block" style="text-align:left;">
+
+<button
+class="sib-form-block__button sib-form-block__button-with-loader"
+form="sib-form"
+type="submit"
+>
+
+SUBSCRIBE NOW
+
+</button>
+
+</div>
+
+</div>
+
+<input type="text" name="email_address_check" value="" class="input--hidden">
+
+<input type="hidden" name="locale" value="en">
+
+<input type="hidden" name="html_type" value="simple">
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div> 
+ 
 <!-- JS -->
 
 <script>
@@ -566,18 +714,97 @@ Email
 /* MOBILE MENU */
 
 const menuToggle = document.getElementById('menu-toggle');
+
 const navLinks = document.getElementById('nav-links');
 
+if(menuToggle){
+
 menuToggle.addEventListener('click', () => {
+
 navLinks.classList.toggle('active');
+
 });
+
+}
 
 /* DYNAMIC YEAR */
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+const year = document.getElementById("year");
+
+if(year){
+
+year.innerHTML = new Date().getFullYear();
+
+}
+
+<script>
+
+/* POPUP */
+
+const popup = document.getElementById('popup');
+
+const closePopup = document.getElementById('close-popup');
+
+/* SHOW POPUP AFTER 7 SEC */
+
+window.addEventListener('load', () => {
+
+setTimeout(() => {
+
+if(popup){
+
+popup.classList.add('active');
+
+}
+
+}, 7000);
+
+});
+
+/* CLOSE POPUP */
+
+if(closePopup){
+
+closePopup.addEventListener('click', () => {
+
+popup.classList.remove('active');
+
+});
+
+}
+
+/* CLOSE WITH ESC KEY */
+
+document.addEventListener('keydown', (e) => {
+
+if(e.key === 'Escape' && popup){
+
+popup.classList.remove('active');
+
+}
+
+});
+
+/* CLOSE WHEN CLICK OUTSIDE */
+
+if(popup){
+
+popup.addEventListener('click', (e) => {
+
+if(e.target === popup){
+
+popup.classList.remove('active');
+
+}
+
+});
+
+}
 
 </script>
 
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script> 
+ 
 </body>
 
 </html>
