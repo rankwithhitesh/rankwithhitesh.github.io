@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | Rank With Hitesh</title>
+
+<meta name="description" content="Contact Rank With Hitesh for SEO consulting, blogging help, keyword research, and digital marketing guidance.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#050505">
+
+<link rel="canonical" href="https://rankwithhitesh.github.io/contact.html">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<style>
+
+/* PAGE STYLE */
+.form-container{
+max-width:850px;
+margin:auto;
+}
+
+.form-box{
+background:#0e0e0e;
+padding:40px;
+border-radius:24px;
+border:1px solid rgba(255,255,255,0.06);
+}
+
+.form-group{
+margin-bottom:18px;
+}
+
+label{
+display:block;
+margin-bottom:8px;
+font-weight:600;
+color:white;
+font-size:14px;
+}
+
+input, textarea{
+width:100%;
+padding:14px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.1);
+background:#111;
+color:white;
+font-family:inherit;
+outline:none;
+font-size:15px;
+}
+
+textarea{
+min-height:140px;
+resize:none;
+}
+
+button{
+padding:14px 28px;
+border:none;
+border-radius:14px;
+background:white;
+color:black;
+font-weight:700;
+cursor:pointer;
+transition:0.3s;
+font-size:15px;
+}
+
+button:hover{
+transform:translateY(-4px);
+}
+
+.info-box{
+text-align:center;
+margin-bottom:40px;
+color:var(--muted);
+line-height:1.8;
+}
+
+.success{
+display:none;
+margin-top:15px;
+color:lightgreen;
+text-align:center;
+font-weight:600;
+}
+
+.error{
+display:none;
+margin-top:15px;
+color:#ff6b6b;
+text-align:center;
+font-weight:600;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="container nav-container">
+
+<div class="logo">Rank With Hitesh</div>
+
+<div class="nav-links">
+<a href="./">Home</a>
+<a href="blog.html">Blogs</a>
+<a href="./#contact">Back</a>
+</div>
+
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero blogs-hero">
+
+<div class="container hero-content">
+
+<div class="badge">📩 Contact Us</div>
+
+<h1>Let’s Build Something Great</h1>
+
+<p>
+Need help with SEO, blogging, keyword research, or digital marketing?  
+Fill the form below and we will reply within 24–48 hours.
+</p>
+
+</div>
+
+</section>
+
+<!-- FORM -->
+<section>
+
+<div class="container form-container">
+
+<div class="info-box">
+We help with SEO strategy, keyword research, blog growth, and organic traffic improvement.
+</div>
+
+<div class="form-box">
+
+<form id="contactForm">
+
+<div class="form-group">
+<label>Name</label>
+<input type="text" name="name" required placeholder="Your Name">
+</div>
+
+<div class="form-group">
+<label>Email</label>
+<input type="email" name="email" required placeholder="Your Email">
+</div>
+
+<div class="form-group">
+<label>Subject</label>
+<input type="text" name="subject" placeholder="SEO / Blogging / Collaboration">
+</div>
+
+<div class="form-group">
+<label>Message</label>
+<textarea name="message" required placeholder="Write your message..."></textarea>
+</div>
+
+<button type="submit" id="submitBtn">Send Message</button>
+
+<div class="success" id="successMsg">Message sent successfully!</div>
+<div class="error" id="errorMsg">Failed to send message. Try again.</div>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<div class="container">
+
+<div class="copyright">
+© <span id="year"></span> Rank With Hitesh • SEO, Blogging & Organic Growth Platform
+</div>
+
+</div>
+
+</footer>
+
+<!-- SCRIPT -->
+<script>
+
+/* YEAR */
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+/* EMAILJS INIT */
+(function(){
+  emailjs.init("YOUR_PUBLIC_KEY"); // 🔴 replace this
+})();
+
+/* FORM SUBMIT */
+document.getElementById("contactForm").addEventListener("submit", function(e){
+e.preventDefault();
+
+let submitBtn = document.getElementById("submitBtn");
+submitBtn.innerText = "Sending...";
+
+let data = {
+name: this.name.value,
+email: this.email.value,
+subject: this.subject.value,
+message: this.message.value
+};
+
+emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", data)
+.then(() => {
+
+document.getElementById("successMsg").style.display = "block";
+document.getElementById("errorMsg").style.display = "none";
+
+this.reset();
+submitBtn.innerText = "Send Message";
+
+setTimeout(() => {
+document.getElementById("successMsg").style.display = "none";
+}, 3000);
+
+})
+
+.catch(() => {
+
+document.getElementById("errorMsg").style.display = "block";
+submitBtn.innerText = "Send Message";
+
+setTimeout(() => {
+document.getElementById("errorMsg").style.display = "none";
+}, 3000);
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
