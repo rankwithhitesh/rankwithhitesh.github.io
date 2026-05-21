@@ -924,15 +924,15 @@ visibility:visible;
 
 .popup-box{
 width:100%;
-max-width:420px;
+max-width:500px;
 background:#0f0f0f;
 border:1px solid rgba(255,255,255,0.08);
 border-radius:28px;
 padding:40px 30px;
 position:relative;
-text-align:center;
 box-shadow:0 20px 60px rgba(0,0,0,0.5);
 animation:popupFade 0.5s ease;
+overflow:hidden;
 }
 
 @keyframes popupFade{
@@ -955,60 +955,41 @@ border:none;
 color:white;
 font-size:28px;
 cursor:pointer;
+z-index:10;
 }
 
-.popup-box h2{
-font-size:30px;
-margin-bottom:14px;
-line-height:1.2;
+/* BREVO FIXES */
+
+#sib-container{
+max-width:100% !important;
+background:transparent !important;
+border:none !important;
+padding:0 !important;
 }
 
-.popup-box p{
-color:var(--muted);
-margin-bottom:28px;
-line-height:1.8;
+.sib-form{
+background:transparent !important;
 }
 
-.popup-form{
-display:flex;
-flex-direction:column;
-gap:16px;
+.sib-form-container{
+padding:0 !important;
 }
 
-.popup-form input{
-width:100%;
-padding:16px;
-border-radius:14px;
-border:1px solid rgba(255,255,255,0.08);
-background:#161616;
-color:white;
-font-size:15px;
-outline:none;
+.sib-form-block__button{
+width:100% !important;
+justify-content:center !important;
+border:none !important;
 }
 
-.popup-form button{
-padding:16px;
-border:none;
-border-radius:14px;
-background:white;
-color:black;
-font-weight:700;
-cursor:pointer;
-transition:0.3s;
-}
-
-.popup-form button:hover{
-transform:translateY(-3px);
+.entry__field input{
+width:100% !important;
 }
 
 @media(max-width:768px){
 
 .popup-box{
 padding:35px 24px;
-}
-
-.popup-box h2{
-font-size:26px;
+max-width:100%;
 }
 
 }
