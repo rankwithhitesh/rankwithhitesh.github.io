@@ -1041,3 +1041,13 @@ display: flex !important;
 justify-content: center;
 align-items: center;
 }
+
+
+.popup-overlay {
+z-index: 9999;
+}
+
+.popup-box {
+position: relative;
+z-index: 10000;
+}
