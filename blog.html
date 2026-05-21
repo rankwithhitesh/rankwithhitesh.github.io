@@ -76,6 +76,8 @@ gtag('js', new Date());
 gtag('config', 'G-JD82NNF1KC');
 </script>
 
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">  
+
 </head>
 
 <body>
@@ -332,6 +334,24 @@ Email
 
 </footer>
 
+<!-- POPUP -->
+
+<div class="popup-overlay" id="popup">
+
+<div class="popup-box">
+
+<button class="popup-close" id="close-popup">
+×
+</button>
+
+<!-- BREVO FORM -->
+
+... FULL FORM CODE ...
+
+</div>
+
+</div>
+  
 <!-- JS -->
 
 <script>
@@ -349,8 +369,72 @@ navLinks.classList.toggle('active');
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
+/* POPUP */
+
+const popup = document.getElementById('popup');
+
+const closePopup = document.getElementById('close-popup');
+
+/* SHOW POPUP AFTER 7 SEC */
+
+window.addEventListener('load', () => {
+
+setTimeout(() => {
+
+if(popup){
+
+popup.classList.add('active');
+
+}
+
+}, 7000);
+
+});
+
+/* CLOSE POPUP */
+
+if(closePopup){
+
+closePopup.addEventListener('click', () => {
+
+popup.classList.remove('active');
+
+});
+
+}
+
+/* CLOSE WITH ESC KEY */
+
+document.addEventListener('keydown', (e) => {
+
+if(e.key === 'Escape' && popup){
+
+popup.classList.remove('active');
+
+}
+
+});
+
+/* CLOSE WHEN CLICK OUTSIDE */
+
+if(popup){
+
+popup.addEventListener('click', (e) => {
+
+if(e.target === popup){
+
+popup.classList.remove('active');
+
+}
+
+});
+
+}
+  
 </script>
 
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>  
+  
 </body>
 
 </html>
