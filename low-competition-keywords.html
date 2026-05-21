@@ -703,6 +703,8 @@ Read More Blogs
 
 <div class="footer-grid">
 
+<!-- BRAND -->
+
 <div>
 
 <div class="footer-logo">
@@ -715,6 +717,8 @@ SEO & Digital Marketing platform focused on blogging, keyword research, organic 
 
 </div>
 
+<!-- QUICK LINKS -->
+
 <div>
 
 <h3 style="margin-bottom:18px;">
@@ -726,11 +730,30 @@ Quick Links
 <a href="./">Home</a>
 <a href="./#about">About</a>
 <a href="blog.html">Blogs</a>
-<a href="./contact.html">Contact</a>
+<a href="contact.html">Contact</a>
 
 </div>
 
 </div>
+
+<!-- IMPORTANT PAGES -->
+
+<div>
+
+<h3 style="margin-bottom:18px;">
+Important Pages
+</h3>
+
+<div class="footer-links">
+
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms & Conditions</a>
+
+</div>
+
+</div>
+
+<!-- SOCIAL -->
 
 <div>
 
@@ -748,11 +771,7 @@ LinkedIn
 Instagram
 </a>
 
-<a href="https://github.com">
-GitHub
-</a>
-
-<a href="mailto:youremail@gmail.com">
+<a href="mailto:hiteshrathodseo@gmail.com">
 Email
 </a>
 
@@ -779,13 +798,19 @@ Email
 const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.getElementById('nav-links');
 
+if(menuToggle){
 menuToggle.addEventListener('click', () => {
 navLinks.classList.toggle('active');
 });
+}
 
 /* DYNAMIC YEAR */
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+const year = document.getElementById("year");
+
+if(year){
+year.innerHTML = new Date().getFullYear();
+}
 
 /* FAQ */
 
@@ -795,16 +820,14 @@ faqItems.forEach(item => {
 
 const question = item.querySelector('.faq-question');
 
+if(question){
+
 question.addEventListener('click', () => {
-
 item.classList.toggle('active');
-
 });
+
+}
 
 });
 
 </script>
-
-</body>
-
-</html>
