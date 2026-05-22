@@ -1,59 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<!-- HOME -->
+  <!-- HOME -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-<loc>https://rankwithhitesh.github.io/</loc>
-<lastmod>2026-05-21</lastmod>
-<changefreq>weekly</changefreq>
-<priority>1.0</priority>
-</url>
+  <!-- BLOG PAGE -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/blog.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
-<!-- BLOG PAGE -->
+  <!-- BLOG POST -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/low-competition-keywords.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-<loc>https://rankwithhitesh.github.io/blog.html</loc>
-<lastmod>2026-05-21</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
+  <!-- NEW BLOG POST -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/technical-seo-basics.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<!-- BLOG POST -->
+  <!-- NEW BLOG POST -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/seo-blogging-strategy.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-<loc>https://rankwithhitesh.github.io/low-competition-keywords.html</loc>
-<lastmod>2026-05-21</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
+  <!-- CONTACT -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/contact.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-<!-- CONTACT -->
+  <!-- PRIVACY POLICY -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/privacy-policy.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 
-<url>
-<loc>https://rankwithhitesh.github.io/contact.html</loc>
-<lastmod>2026-05-21</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-
-<!-- PRIVACY POLICY -->
-
-<url>
-<loc>https://rankwithhitesh.github.io/privacy-policy.html</loc>
-<lastmod>2026-05-21</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.4</priority>
-</url>
-
-<!-- TERMS -->
-
-<url>
-<loc>https://rankwithhitesh.github.io/terms-and-conditions.html</loc>
-<lastmod>2026-05-21</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.4</priority>
-</url>
+  <!-- TERMS -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/terms-and-conditions.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 
 </urlset>
