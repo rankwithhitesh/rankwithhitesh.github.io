@@ -1,0 +1,1275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="google-site-verification" content="1J_gTPEAH7_wN0s6OsZraEcEhqw-11f2qowOJgB5Yh0" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NZ8DPNVD');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>On Page SEO Checklist for Beginners in 2026: Complete Step by Step Guide</title>
+
+<meta name="description"
+content="Learn on-page SEO in 2026 with this beginner-friendly checklist. Improve rankings, optimize content, fix SEO mistakes, and grow organic traffic step by step.">
+
+<meta name="keywords"
+content="on page SEO, on page SEO checklist, on page SEO for beginners, SEO checklist 2026, SEO content optimization, Google ranking tips, SEO friendly content, keyword placement strategy, search intent optimization, internal linking SEO, image SEO optimization, semantic SEO, SEO title optimization, featured snippet optimization, SEO best practices">
+
+<meta name="author" content="Hitesh Rathod">
+
+<meta name="robots" content="index, follow">
+
+<meta name="theme-color" content="#050505">
+
+<link rel="canonical"
+href="https://rankwithhitesh.github.io/on-page-seo-checklist-beginners.html">
+
+<!-- OPEN GRAPH -->
+
+<meta property="og:title"
+content="On Page SEO Checklist for Beginners in 2026: Complete Step by Step Guide">
+
+<meta property="og:description"
+content="Learn on-page SEO in plain English. A beginner-friendly checklist covering keyword placement, search intent, internal linking, image SEO, and semantic SEO for 2026.">
+
+<meta property="og:type" content="article">
+
+<meta property="og:url"
+content="https://rankwithhitesh.github.io/on-page-seo-checklist-beginners.html">
+
+<meta property="og:image"
+content="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1200&auto=format&fit=crop">
+
+<meta property="og:site_name" content="Rank With Hitesh">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title"
+content="On Page SEO Checklist for Beginners in 2026: Complete Step by Step Guide">
+
+<meta name="twitter:description"
+content="Learn on-page SEO in plain English. Covers keyword placement, search intent, internal linking, image SEO, and semantic SEO — with a practical checklist for 2026.">
+
+<meta name="twitter:image"
+content="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1200&auto=format&fit=crop">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<!-- GOOGLE FONT -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
+<!-- ARTICLE SCHEMA -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "On Page SEO Checklist for Beginners in 2026: Complete Step by Step Guide",
+  "description": "Learn on-page SEO in 2026 with this beginner-friendly checklist. Improve rankings, optimize content, fix SEO mistakes, and grow organic traffic step by step.",
+  "image": "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1200&auto=format&fit=crop",
+  "author": {
+    "@type": "Person",
+    "name": "Hitesh Rathod"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rank With Hitesh",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rankwithhitesh.github.io/favicon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rankwithhitesh.github.io/on-page-seo-checklist-beginners.html"
+  },
+  "datePublished": "2026-05-25",
+  "dateModified": "2026-05-25"
+}
+</script>
+
+<!-- FAQ SCHEMA -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the most important on-page SEO factor for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Search intent is the single most important factor. If your content does not match what the searcher actually wants, no other optimization will help you rank. After that, title tag optimization, quality content, and proper heading structure are your highest priorities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should my blog post be for good on-page SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no perfect word count. Your article should be as long as it needs to be to fully answer the searcher's question. For most informational topics, articles between 1500 and 3500 words tend to perform well. Focus on quality and completeness, not hitting an arbitrary number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many times should I use my keyword in an article?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no set rule. Use your primary keyword naturally in the title, H1, first paragraph, a few subheadings, and throughout the body wherever it fits naturally. If you are writing a 2000-word article, appearing 5 to 8 times in natural context is typically appropriate. Never force it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does meta description affect Google rankings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Meta descriptions are not a direct ranking factor. However, a well-written meta description significantly improves click-through rate, which tells Google that people find your result appealing. Higher CTR can indirectly support your rankings over time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my on-page SEO is working?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use Google Search Console to track impressions and clicks for your target keywords. Use Google Analytics to monitor organic traffic and user behavior. Improvements typically take 4 to 12 weeks to show in rankings, so be patient and focus on consistent optimization."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is on-page SEO still relevant with AI search engines in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. AI search engines like Perplexity and Bing AI pull content from well-structured, clearly written, and authoritative web pages. Strong on-page SEO makes your content more likely to be cited and referenced by these AI systems, expanding your visibility beyond traditional search results."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- BREADCRUMB SCHEMA -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://rankwithhitesh.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blogs",
+      "item": "https://rankwithhitesh.github.io/blog.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "On Page SEO Checklist for Beginners",
+      "item": "https://rankwithhitesh.github.io/on-page-seo-checklist-beginners.html"
+    }
+  ]
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ8DPNVD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+  <div class="container nav-container">
+
+    <div class="logo">
+      Rank With Hitesh
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <div class="nav-links" id="nav-links">
+
+      <a href="./">Home</a>
+      <a href="./#about">About</a>
+      <a href="blog.html">Blogs</a>
+      <a href="./contact.html">Contact</a>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero blogs-hero">
+
+  <div class="blur one"></div>
+  <div class="blur two"></div>
+
+  <div class="container hero-content">
+
+    <div class="badge">
+      🚀 SEO Blog
+    </div>
+
+    <h1>
+      On Page SEO Checklist for Beginners in 2026: Complete Step by Step Guide
+    </h1>
+
+    <p>
+      Learn on-page SEO in simple English. Covers keyword placement, search intent, internal linking, image SEO, semantic SEO, and a practical checklist you can start using today.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- BLOG CONTENT -->
+
+<section>
+
+  <div class="container blog-wrapper">
+
+    <div class="blog-article">
+
+      <div class="blog-featured-image">
+        <img
+          src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1200&auto=format&fit=crop"
+          alt="On page SEO checklist for beginners 2026 — content optimization and Google ranking guide"
+          loading="lazy">
+      </div>
+
+      <p>
+        You built the website. You published the content. You waited. And nothing happened.
+      </p>
+
+      <p>
+        This is the reality for thousands of beginners who put real effort into their blogs and business sites, only to watch their pages disappear somewhere on page five of Google search results. The frustrating truth is that publishing content alone is not enough anymore.
+      </p>
+
+      <p>
+        In 2026, Google has become dramatically smarter. Its algorithms now evaluate how well your content answers a searcher's actual question, how your page is structured, whether your content has real topical depth, and how users behave once they land on your page. On top of that, AI-powered search engines are now surfacing direct answers from pages that are well-optimized, well-structured, and genuinely helpful.
+      </p>
+
+      <p>
+        This is exactly where On Page SEO comes in.
+      </p>
+
+      <p>
+        On Page SEO is the foundation of ranking. It is what you control directly, and it is what Google reads first. If your on-page optimization is weak, even the best backlink strategy in the world will struggle to save you.
+      </p>
+
+      <p>
+        This guide is written specifically for beginners. Whether you are just starting your blog, launching a business website, or trying to understand why your existing content is not performing, you will find clear explanations and practical steps here. No confusing jargon, no fluff.
+      </p>
+
+      <p>
+        You can also explore more practical SEO and digital marketing tutorials on our
+        <a href="https://rankwithhitesh.github.io/blog.html">SEO blog page</a>.
+      </p>
+
+      <h2 id="what-is-on-page-seo">1. What Is On Page SEO?</h2>
+
+      <p>
+        On Page SEO refers to all the optimization work you do directly on your web page to help it rank higher in search engines. This includes the content you write, the headings you use, the keywords you place, your title tags, your URL structure, your internal links, and more.
+      </p>
+
+      <p>
+        Think of it this way. When a search engine like Google visits your page, it needs to understand what the page is about, whether it answers the searcher's question, and whether it offers a good reading experience. On Page SEO is how you communicate all of that clearly.
+      </p>
+
+      <h3 id="on-page-vs-technical-seo">How Is On Page SEO Different from Technical SEO?</h3>
+
+      <p>
+        Technical SEO focuses on the backend health of your website: site speed, crawlability, mobile-friendliness, sitemaps, and structured data. It is more about how search engines access and process your site.
+      </p>
+
+      <p>
+        On Page SEO focuses on the content and HTML elements that are visible on the page itself. Both matter, but if you are just starting out, On Page SEO is where you begin. You can explore <a href="https://rankwithhitesh.github.io/technical-seo-basics.html">technical SEO basics</a> once your content foundation is strong.
+      </p>
+
+      <h3 id="on-page-vs-off-page-seo">How Is On Page SEO Different from Off Page SEO?</h3>
+
+      <p>
+        Off Page SEO refers to everything that happens outside your website to build your authority, most commonly backlinks from other websites, social signals, and brand mentions.
+      </p>
+
+      <p>
+        On Page SEO is what happens on your own website. You have complete control over it, which is why it is the most logical starting point for any beginner.
+      </p>
+
+      <div style="overflow-x:auto; margin-bottom:40px;">
+        <table style="width:100%; border-collapse:collapse; min-width:600px;">
+          <thead>
+            <tr style="background:#111;">
+              <th style="padding:15px; border:1px solid #222; text-align:left;">Type</th>
+              <th style="padding:15px; border:1px solid #222; text-align:left;">What It Covers</th>
+              <th style="padding:15px; border:1px solid #222; text-align:left;">Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">On Page SEO</td>
+              <td style="padding:15px; border:1px solid #222;">Content, keywords, headings, title tags, URLs, internal links</td>
+              <td style="padding:15px; border:1px solid #222;">Optimize title tag, write structured blog content</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Technical SEO</td>
+              <td style="padding:15px; border:1px solid #222;">Site speed, crawlability, sitemaps, mobile usability</td>
+              <td style="padding:15px; border:1px solid #222;">Fix broken links, submit sitemap, improve load time</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Off Page SEO</td>
+              <td style="padding:15px; border:1px solid #222;">Backlinks, social signals, brand mentions</td>
+              <td style="padding:15px; border:1px solid #222;">Get links from other websites, build authority</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="how-google-understands-content">2. How Google Understands Your Content</h2>
+
+      <p>
+        Before you can optimize your content, you need to understand how Google actually reads and ranks it. The process has three main stages.
+      </p>
+
+      <h3 id="crawling">Crawling</h3>
+
+      <p>
+        Google uses automated programs called crawlers or spiders to discover web pages. These crawlers follow links from page to page across the internet and bring back information about each page they visit.
+      </p>
+
+      <h3 id="indexing">Indexing</h3>
+
+      <p>
+        After crawling, Google analyzes and stores your page in its index. This is essentially Google's massive database of web content. If your page is not indexed, it will never appear in search results.
+      </p>
+
+      <h3 id="ranking-and-search-intent">Ranking and Search Intent</h3>
+
+      <p>
+        Once indexed, Google determines how relevant and helpful your page is for specific search queries. A major factor here is search intent, which means understanding the reason behind a user's search. Google rewards content that best matches what the person was actually looking for.
+      </p>
+
+      <h3 id="semantic-seo-relevance">Semantic SEO and Content Relevance</h3>
+
+      <p>
+        Modern Google does not just match keywords. It understands context. If you write about coffee brewing, Google expects you to naturally mention terms like espresso, grind size, water temperature, and french press. These are semantically related concepts that signal topical depth.
+      </p>
+
+      <p>
+        This is why content that covers a topic thoroughly tends to outrank thin articles that only stuff a keyword repeatedly. Semantic SEO is about writing content that is genuinely comprehensive, not just long.
+      </p>
+
+      <h3 id="user-experience-signals">User Experience Signals</h3>
+
+      <p>
+        Google also pays attention to how users interact with your page. If people click your result but immediately bounce back to Google, that sends a signal that your content did not satisfy them. On the other hand, if users spend time on your page, click through to other articles on your site, and engage with your content, that tells Google your page is worth ranking.
+      </p>
+
+      <h2 id="keyword-placement-strategy">3. Keyword Placement Strategy</h2>
+
+      <p>
+        Using the right keywords in the right places is one of the most fundamental parts of on-page SEO for beginners. But it is not about repeating a phrase as many times as possible. It is about natural, strategic placement.
+      </p>
+
+      <h3 id="seo-title-optimization">SEO Title Optimization</h3>
+
+      <p>
+        Your page title, also called the title tag, is one of the most important on-page elements. Place your primary keyword as close to the beginning of the title as possible. Keep it between 50 and 60 characters so it does not get cut off in search results.
+      </p>
+
+      <p>
+        Example: Instead of "A Complete Guide to Understanding On Page SEO for Your Blog," write "On Page SEO Guide for Beginners: Step by Step Checklist."
+      </p>
+
+      <h3 id="h1-tag-optimization">H1 Tag Optimization</h3>
+
+      <p>
+        Your H1 is the main heading that appears on your page. Every page should have exactly one H1 tag. Include your primary keyword naturally within it. The H1 does not need to be identical to your title tag but should be closely related.
+      </p>
+
+      <h3 id="url-optimization">URL Optimization</h3>
+
+      <p>
+        Keep your URLs short, clean, and keyword-rich. Avoid numbers, dates, and unnecessary words. A URL like <code>yoursite.com/on-page-seo-checklist</code> is far more effective than <code>yoursite.com/2026/03/14/article-post-123</code>.
+      </p>
+
+      <h3 id="first-paragraph-optimization">First Paragraph Optimization</h3>
+
+      <p>
+        Use your primary keyword naturally within the first 100 words of your article. This helps Google quickly understand the topic of your page without needing to read everything.
+      </p>
+
+      <h3 id="h2-h3-headings">H2 and H3 Headings</h3>
+
+      <p>
+        Use your H2 subheadings to cover related subtopics and naturally incorporate secondary and semantic keywords. H3 headings work well for breaking down details within each section.
+      </p>
+
+      <h3 id="natural-keyword-placement">Natural Keyword Placement and Semantic Keywords</h3>
+
+      <p>
+        Sprinkle your keywords throughout the body content naturally, as you would speak. Add related terms and synonyms. If your article is about on-page SEO, you should naturally be writing about things like title tags, meta descriptions, internal links, and content structure. These semantic keywords reinforce your topical relevance.
+      </p>
+
+      <h3 id="keyword-stuffing">Keyword Stuffing: What to Avoid</h3>
+
+      <p>
+        Keyword stuffing means repeating your target keyword unnaturally and excessively throughout the content. Google penalizes this behavior. Write for humans first, and let the keywords flow naturally from genuinely helpful content.
+      </p>
+
+      <h2 id="search-intent-optimization">4. Search Intent Optimization</h2>
+
+      <p>
+        Search intent is the why behind every search query. It is arguably the single most important concept in modern SEO. If your content does not match the searcher's intent, no amount of keyword optimization will save it.
+      </p>
+
+      <h3 id="types-of-search-intent">Types of Search Intent</h3>
+
+      <ul style="margin-bottom:40px; color:var(--muted); line-height:1;">
+        <li><strong>Informational Intent:</strong> The user wants to learn something. Example: "what is on page SEO" or "how does Google ranking work." These searches call for educational blog posts, guides, and explainers.</li>
+        <li><strong>Commercial Intent:</strong> The user is researching before making a decision. Example: "best SEO tools for beginners" or "Ahrefs vs Semrush comparison." These searches call for comparison articles and detailed reviews.</li>
+        <li><strong>Transactional Intent:</strong> The user is ready to take action or make a purchase. Example: "buy Semrush plan" or "sign up for Ahrefs free trial." These searches call for product or service pages.</li>
+        <li><strong>Navigational Intent:</strong> The user wants to find a specific website or page. Example: "Google Search Console login" or "Rank Math plugin download." These searches prioritize getting the user to the right destination quickly.</li>
+      </ul>
+
+      <p>
+        Matching search intent is not just good SEO practice, it is what separates pages that rank from pages that do not. Before writing any content, search your target keyword on Google and look at the format and type of content that already ranks on page one. That tells you exactly what Google expects.
+      </p>
+
+      <h2 id="seo-friendly-content-structure">5. SEO Friendly Content Structure</h2>
+
+      <p>
+        How you structure your content affects both readability and rankings. A well-structured article is easier for readers to navigate and easier for search engines to understand.
+      </p>
+
+      <h3 id="short-paragraphs">Short Paragraphs</h3>
+
+      <p>
+        Break your content into short paragraphs of two to four sentences. Long walls of text make readers lose focus and increase your bounce rate. Shorter paragraphs keep readers engaged and make your article feel easy to read.
+      </p>
+
+      <h3 id="heading-hierarchy">Proper Heading Hierarchy</h3>
+
+      <p>
+        Use one H1, multiple H2s for main sections, and H3s for subsections within those sections. This hierarchy helps both users and search engines understand the structure of your content.
+      </p>
+
+      <h3 id="table-of-contents">Table of Contents</h3>
+
+      <p>
+        For longer articles, add a Table of Contents near the top. This improves navigation, enhances user experience, and sometimes appears as links directly in Google search results, which can improve your click-through rate.
+      </p>
+
+      <h3 id="faq-sections">FAQ Sections</h3>
+
+      <p>
+        Including a FAQ section at the end of your article helps you capture long-tail searches and often gets pulled into featured snippets and People Also Ask sections on Google.
+      </p>
+
+      <h3 id="featured-snippet-formatting">Featured Snippet Formatting</h3>
+
+      <p>
+        Google frequently pulls short, clear answers from well-structured content to display at the very top of search results. Format your definitions, step-by-step lists, and comparison tables in a clean, scannable way to increase your chances of being selected for a featured snippet.
+      </p>
+
+      <h2 id="title-tags-meta-descriptions">6. Title Tags and Meta Descriptions</h2>
+
+      <h3 id="writing-effective-seo-title">Writing an Effective SEO Title</h3>
+
+      <p>
+        Your title tag is what appears as the clickable headline in Google search results. It is one of your most powerful on-page SEO elements. A strong title tag should include your primary keyword, stay under 60 characters, and communicate a clear benefit or promise to the reader.
+      </p>
+
+      <p>
+        Use emotional triggers like "beginners guide," "step by step," "checklist," or "in 2026" to improve your click-through rate. These words tell users exactly what to expect and motivate them to click.
+      </p>
+
+      <h3 id="meta-description-optimization">Meta Description Optimization</h3>
+
+      <p>
+        The meta description is the short paragraph that appears beneath your title in search results. While it is not a direct ranking factor, a well-written meta description dramatically improves your click-through rate.
+      </p>
+
+      <p>
+        Keep your meta description between 150 and 160 characters. Include your primary keyword naturally and write it as a compelling summary that encourages the searcher to click your link over the others.
+      </p>
+
+      <h3 id="title-meta-mistakes">Common Title and Meta Mistakes to Avoid</h3>
+
+      <ul style="margin-bottom:40px; color:var(--muted); line-height:1;">
+        <li>Writing titles longer than 60 characters, which get truncated in search results</li>
+        <li>Using the same title tag across multiple pages</li>
+        <li>Ignoring the meta description entirely and letting Google auto-generate it</li>
+        <li>Writing meta descriptions that do not reflect the actual content of the page</li>
+      </ul>
+
+      <h2 id="internal-linking-strategy">7. Internal Linking Strategy</h2>
+
+      <p>
+        Internal linking means connecting your web pages to each other through hyperlinks within your content. This is one of the most underused and underappreciated tactics in on-page SEO.
+      </p>
+
+      <h3 id="why-internal-links-matter">Why Internal Links Matter</h3>
+
+      <p>
+        Internal links help Google crawl and understand your website structure. They pass authority from one page to another, help establish topical relationships between your content, and keep readers on your site longer.
+      </p>
+
+      <h3 id="hub-and-spoke-model">Topical Authority and the Hub and Spoke Model</h3>
+
+      <p>
+        If you are building a blog around SEO, think of it like a wheel. Your main pillar article on a broad topic like "SEO guide" is the hub. Your more specific posts about things like keyword research, internal linking, and technical SEO basics are the spokes. Each spoke links back to the hub, and the hub links out to the spokes. This structure signals deep topical authority to Google.
+      </p>
+
+      <p>
+        If you have not thought about how to build this kind of blogging strategy for SEO, that is a great next step after mastering On Page SEO.
+      </p>
+
+      <h3 id="anchor-text-optimization">Anchor Text Optimization</h3>
+
+      <p>
+        Anchor text is the clickable text of your hyperlink. Use descriptive, keyword-rich anchor text that tells both users and Google what the linked page is about. Avoid generic anchors like "click here" or "read more."
+      </p>
+
+      <h3 id="orphan-pages">Avoid Orphan Pages</h3>
+
+      <p>
+        An orphan page is a page on your site that no other page links to. Google may have difficulty finding and prioritizing orphan pages. Make sure every piece of content on your site is linked to from at least one or two other relevant pages.
+      </p>
+
+      <h2 id="image-seo-optimization">8. Image SEO Optimization</h2>
+
+      <p>
+        Images make your content more engaging, but unoptimized images can slow your page down and hurt your rankings. Image SEO is often overlooked by beginners, but it offers real ranking and traffic benefits.
+      </p>
+
+      <h3 id="alt-text">Alt Text</h3>
+
+      <p>
+        Every image on your page should have a descriptive alt text. Alt text helps visually impaired users understand the image, and it helps search engines understand the context of the image. Use natural, descriptive language and include relevant keywords where appropriate.
+      </p>
+
+      <h3 id="image-file-names">File Names</h3>
+
+      <p>
+        Rename your image files before uploading them. Instead of "IMG_4532.jpg," use a descriptive name like "on-page-seo-checklist-2026.jpg." This gives search engines an additional context signal.
+      </p>
+
+      <h3 id="webp-compression">WebP Format and Image Compression</h3>
+
+      <p>
+        Use WebP format for your images wherever possible. WebP files are significantly smaller than JPEG or PNG files without a noticeable drop in quality. Smaller image files load faster, which improves your Core Web Vitals scores, a real ranking factor.
+      </p>
+
+      <h3 id="lazy-loading">Lazy Loading</h3>
+
+      <p>
+        Implement lazy loading so that images only load when they scroll into the user's view. This makes your initial page load much faster, especially on mobile devices.
+      </p>
+
+      <h2 id="url-structure-best-practices">9. URL Structure Best Practices</h2>
+
+      <p>
+        Your URL is more than just an address. It is an on-page SEO signal that helps both users and search engines understand what your page is about before they even read it.
+      </p>
+
+      <h3 id="good-seo-url">Characteristics of a Good SEO URL</h3>
+
+      <ul style="margin-bottom:40px; color:var(--muted); line-height:1;">
+        <li><strong>Short and descriptive:</strong> <code>yoursite.com/on-page-seo-guide</code> is better than <code>yoursite.com/blog-post-on-page-search-engine-optimization-complete-guide-2026</code></li>
+        <li><strong>Uses hyphens, not underscores:</strong> Google treats hyphens as word separators but underscores as connecting characters</li>
+        <li>Contains your primary keyword naturally</li>
+        <li>Avoids unnecessary words like "the," "a," or "and" when possible</li>
+        <li>Avoids session IDs, query parameters, and dates unless essential</li>
+      </ul>
+
+      <p>
+        A clean URL signals professionalism and makes your pages easier to share and remember. It is a small detail, but one that every beginner should get right from the start.
+      </p>
+
+      <h2 id="featured-snippet-optimization">10. Featured Snippet Optimization</h2>
+
+      <p>
+        A featured snippet is the boxed result that appears at position zero, above the regular organic results on Google. It is one of the most valuable spots in search because it gives you enormous visibility even without being the top-ranked result.
+      </p>
+
+      <h3 id="types-of-featured-snippets">Types of Featured Snippets</h3>
+
+      <ul style="margin-bottom:30px; color:var(--muted); line-height:1;">
+        <li><strong>Paragraph Snippets:</strong> A short answer to a question. To optimize for this, write a clear two-to-three sentence answer immediately after a question-style heading.</li>
+        <li><strong>List Snippets:</strong> Step-by-step processes or ranked lists. Format your content as numbered or bulleted lists with clear, concise items.</li>
+        <li><strong>Table Snippets:</strong> Comparisons and data. Use clean HTML tables with clear headers.</li>
+      </ul>
+
+      <h3 id="how-to-optimize-snippets">How to Optimize for Featured Snippets</h3>
+
+      <p>
+        Ask the question directly in a heading, then immediately answer it in clear, simple language. Keep the answer under 50 words for paragraph snippets. Structure your lists so each item is descriptive but concise.
+      </p>
+
+      <p>
+        Tools like Surfer SEO and Semrush can help you identify which queries in your niche have featured snippet opportunities, allowing you to target them strategically.
+      </p>
+
+      <h2 id="semantic-seo-2026">11. Semantic SEO in 2026</h2>
+
+      <p>
+        Semantic SEO means optimizing your content for meaning and context, not just keywords. In 2026, this is more important than ever because both Google and AI search engines like Perplexity and Bing AI analyze the full context of your content, not just whether a keyword appears.
+      </p>
+
+      <h3 id="entity-based-seo">What Is Entity-Based SEO?</h3>
+
+      <p>
+        Google's understanding of the web is increasingly built around entities: people, places, things, and concepts. When your content clearly discusses and connects relevant entities in your topic area, it builds a stronger relevance signal than keyword repetition ever could.
+      </p>
+
+      <h3 id="contextual-optimization">Contextual Optimization in Practice</h3>
+
+      <p>
+        If you write an article about on-page SEO, a semantically rich article will naturally cover related concepts like title tags, meta descriptions, content structure, search intent, and internal linking. You do not need to force keywords. You simply need to cover the topic thoroughly and honestly.
+      </p>
+
+      <p>
+        The more comprehensively you cover a topic, the stronger your topical authority becomes, and the more likely Google and AI search engines are to cite and rank your content.
+      </p>
+
+      <h3 id="ai-search-visibility">AI Search Visibility</h3>
+
+      <p>
+        AI-powered answer engines now pull information directly from web pages to generate conversational answers. Pages that are well-structured, clearly written, and semantically rich are far more likely to be referenced by these AI systems. That means strong on-page SEO now serves double duty: ranking in traditional search and being cited in AI search results.
+      </p>
+
+      <h2 id="common-on-page-seo-mistakes">12. Common On Page SEO Mistakes</h2>
+
+      <p>
+        Understanding what not to do is just as important as knowing what to do. Here are the most common on-page SEO mistakes that hold beginner websites back.
+      </p>
+
+      <ul style="margin-bottom:40px; color:var(--muted); line-height:1;">
+        <li><strong>Keyword Stuffing:</strong> Repeating the target keyword unnaturally throughout the article. Google detects this and may penalize your page.</li>
+        <li><strong>Thin Content:</strong> Publishing short articles that do not genuinely answer the searcher's question. Aim for depth and quality over word count.</li>
+        <li><strong>Poor Heading Structure:</strong> Using headings randomly or skipping heading levels entirely. Headings should form a logical, hierarchical outline.</li>
+        <li><strong>Ignoring Search Intent:</strong> Writing content that does not match what the searcher actually wants. Always analyze the top results before writing.</li>
+        <li><strong>Duplicate Content:</strong> Publishing the same or very similar content on multiple pages of your site. This confuses Google and splits your ranking potential.</li>
+        <li><strong>Weak Internal Linking:</strong> Failing to connect your content into a cohesive web of related articles. Internal links are essential for topical authority.</li>
+        <li><strong>Missing Image Alt Text:</strong> Leaving alt attributes blank on images. This misses a real SEO and accessibility opportunity.</li>
+        <li><strong>Weak Title Tags:</strong> Writing generic or keyword-free title tags that fail to attract clicks.</li>
+        <li><strong>Over-Optimization:</strong> Forcing too many keywords into headings, URLs, and alt text to the point where the content feels unnatural.</li>
+      </ul>
+
+      <h2 id="on-page-seo-checklist">13. Beginner On Page SEO Checklist</h2>
+
+      <p>
+        Use this checklist every time you publish or optimize a page. Print it, bookmark it, or save it to your workflow.
+      </p>
+
+      <div style="overflow-x:auto; margin-bottom:40px;">
+        <table style="width:100%; border-collapse:collapse; min-width:700px;">
+          <thead>
+            <tr style="background:#111;">
+              <th style="padding:15px; border:1px solid #222; text-align:left;">Task</th>
+              <th style="padding:15px; border:1px solid #222; text-align:left;">Priority</th>
+              <th style="padding:15px; border:1px solid #222; text-align:left;">Recommended Tool</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Optimize title tag with primary keyword</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">Ahrefs / Semrush</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Write a compelling meta description</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">Yoast SEO / Rank Math</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Place keyword in H1 tag</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">Manual</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Use keyword naturally in first paragraph</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">Manual</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Create a short, keyword-rich URL</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">CMS Settings</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Use H2 and H3 headings with semantic keywords</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">Manual</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Add internal links to related articles</td>
+              <td style="padding:15px; border:1px solid #222;">High</td>
+              <td style="padding:15px; border:1px solid #222;">Manual</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Optimize image alt text for every image</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">Manual / CMS</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Compress and convert images to WebP</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">PageSpeed Insights / Squoosh</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Add a Table of Contents for long posts</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">Rank Math / Plugin</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Include an FAQ section</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">Manual</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Format for featured snippet potential</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">Surfer SEO</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Use semantic and related keywords throughout</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">Surfer SEO / Semrush</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Check page speed and Core Web Vitals</td>
+              <td style="padding:15px; border:1px solid #222;">Medium</td>
+              <td style="padding:15px; border:1px solid #222;">PageSpeed Insights</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Check for duplicate content issues</td>
+              <td style="padding:15px; border:1px solid #222;">Low</td>
+              <td style="padding:15px; border:1px solid #222;">Semrush / Screaming Frog</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Submit URL to Google Search Console</td>
+              <td style="padding:15px; border:1px solid #222;">Low</td>
+              <td style="padding:15px; border:1px solid #222;">Google Search Console</td>
+            </tr>
+            <tr>
+              <td style="padding:15px; border:1px solid #222;">Monitor rankings and impressions</td>
+              <td style="padding:15px; border:1px solid #222;">Ongoing</td>
+              <td style="padding:15px; border:1px solid #222;">Google Search Console / Analytics</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        At Rank With Hitesh, this is the exact framework used to help beginners build SEO-optimized blogs that grow steadily over time. Consistency with this checklist will compound into real results.
+      </p>
+
+      <h2 id="best-on-page-seo-tools">14. Best On Page SEO Tools</h2>
+
+      <p>
+        You do not need to buy every tool on this list. Start with the free ones and upgrade as your site grows.
+      </p>
+
+      <ul style="margin-bottom:40px; color:var(--muted); line-height:1;">
+        <li><strong>Google Search Console (Free)</strong> — Tracks your rankings, impressions, clicks, and indexing status directly from Google. Essential for every website owner.</li>
+        <li><strong>Google Analytics (Free)</strong> — Shows traffic data, bounce rate, session duration, and user behavior on your site. Pairs perfectly with Search Console.</li>
+        <li><strong>Ahrefs (Paid)</strong> — Keyword research, backlink analysis, content gap analysis, and site auditing. Excellent for growing sites. Beginners can start with this <a href="https://rankwithhitesh.github.io/low-competition-keywords.html">low competition keywords guide</a> to get the most from keyword tools.</li>
+        <li><strong>Semrush (Paid)</strong> — All-in-one SEO platform for keyword research, on-page audits, and competitor analysis. Great for comprehensive SEO campaigns.</li>
+        <li><strong>Yoast SEO (Free / Paid)</strong> — WordPress plugin that guides you through on-page SEO optimization for each post, with real-time content analysis.</li>
+        <li><strong>Rank Math (Free / Paid)</strong> — Powerful WordPress SEO plugin with schema markup, content analysis, and Google Analytics integration built in.</li>
+        <li><strong>Surfer SEO (Paid)</strong> — Content optimization tool that analyzes top-ranking pages and suggests keyword usage, structure, and word count targets.</li>
+        <li><strong>PageSpeed Insights (Free)</strong> — Google's free tool to test page speed, Core Web Vitals, and performance on mobile and desktop.</li>
+      </ul>
+
+      <p>
+        For most beginners, starting with Google Search Console, Google Analytics, and either Yoast SEO or Rank Math is more than enough to get meaningful results.
+      </p>
+
+      <h2 id="conclusion">Conclusion: Your SEO Journey Starts Here</h2>
+
+      <p>
+        On Page SEO might seem overwhelming at first, but here is the honest truth: you do not need to get everything perfect on day one. You need to start, and you need to be consistent.
+      </p>
+
+      <p>
+        Every article you optimize is a small investment in your site's long-term authority. The pages you write today, structured correctly and genuinely helpful, will continue to bring in organic traffic months and even years from now.
+      </p>
+
+      <p>
+        Start with the basics. Write content that honestly answers real questions. Place your keywords naturally. Build a thoughtful internal linking structure. Optimize your images and URLs. Check your work against the checklist above before hitting publish.
+      </p>
+
+      <p>
+        SEO is not a one-time task. It is an ongoing commitment to making your content as useful, clear, and relevant as possible. The sites that win in the long run are not the ones with the most backlinks or the biggest budgets. They are the ones that consistently publish great content and optimize it well.
+      </p>
+
+      <p>
+        Take this guide, apply it one step at a time, and trust the process. Your rankings will grow. Your traffic will build. And eventually, your site will become the kind of resource that Google is proud to put in front of searchers.
+      </p>
+
+      <p>
+        If you are ready to go deeper into SEO strategy or want expert guidance on growing your website, visit <a href="https://rankwithhitesh.github.io/">Rank With Hitesh</a> for more practical SEO resources built specifically for beginners and growing websites.
+      </p>
+
+      <p>
+        Now go optimize something.
+      </p>
+
+      <h2 id="faq">Frequently Asked Questions</h2>
+
+      <div class="faq-container">
+
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>1. What is the most important on-page SEO factor for beginners?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Search intent is the single most important factor. If your content does not match what the searcher actually wants, no other optimization will help you rank. After that, title tag optimization, quality content, and proper heading structure are your highest priorities.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>2. How long should my blog post be for good on-page SEO?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              There is no perfect word count. Your article should be as long as it needs to be to fully answer the searcher's question. For most informational topics, articles between 1500 and 3500 words tend to perform well. Focus on quality and completeness, not hitting an arbitrary number.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>3. How many times should I use my keyword in an article?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              There is no set rule. Use your primary keyword naturally in the title, H1, first paragraph, a few subheadings, and throughout the body wherever it fits naturally. If you are writing a 2000-word article, appearing 5 to 8 times in natural context is typically appropriate. Never force it.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>4. Does meta description affect Google rankings?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Meta descriptions are not a direct ranking factor. However, a well-written meta description significantly improves click-through rate, which tells Google that people find your result appealing. Higher CTR can indirectly support your rankings over time.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>5. How do I know if my on-page SEO is working?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Use Google Search Console to track impressions and clicks for your target keywords. Use Google Analytics to monitor organic traffic and user behavior. Improvements typically take 4 to 12 weeks to show in rankings, so be patient and focus on consistent optimization.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>6. Is on-page SEO still relevant with AI search engines in 2026?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolutely. AI search engines like Perplexity and Bing AI pull content from well-structured, clearly written, and authoritative web pages. Strong on-page SEO makes your content more likely to be cited and referenced by these AI systems, expanding your visibility beyond traditional search results.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+
+<section>
+
+  <div class="container">
+
+    <div class="cta-box">
+
+      <h2>
+        Want More SEO Insights?
+      </h2>
+
+      <p>
+        Explore more practical SEO, blogging, keyword research, and digital marketing guides built for beginners and growing websites.
+      </p>
+
+      <a href="blog.html" class="btn btn-primary">
+        Read More Blogs
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <!-- BRAND -->
+
+      <div>
+
+        <div class="footer-logo">
+          Rank With Hitesh
+        </div>
+
+        <p class="footer-text">
+          SEO &amp; Digital Marketing platform focused on blogging, keyword research, organic growth, and practical SEO learning.
+        </p>
+
+      </div>
+
+      <!-- QUICK LINKS -->
+
+      <div>
+
+        <h3 style="margin-bottom:18px;">
+          Quick Links
+        </h3>
+
+        <div class="footer-links">
+
+          <a href="./">Home</a>
+          <a href="./#about">About</a>
+          <a href="blog.html">Blogs</a>
+          <a href="contact.html">Contact</a>
+
+        </div>
+
+      </div>
+
+      <!-- IMPORTANT PAGES -->
+
+      <div>
+
+        <h3 style="margin-bottom:18px;">
+          Important Pages
+        </h3>
+
+        <div class="footer-links">
+
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+
+        </div>
+
+      </div>
+
+      <!-- SOCIAL -->
+
+      <div>
+
+        <h3 style="margin-bottom:18px;">
+          Follow Me
+        </h3>
+
+        <div class="footer-links">
+
+          <a href="https://linkedin.com">
+            LinkedIn
+          </a>
+
+          <a href="https://instagram.com">
+            Instagram
+          </a>
+
+          <a href="mailto:hiteshrathodseo@gmail.com">
+            Email
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      &copy; <span id="year"></span> Rank With Hitesh &bull; SEO, Blogging &amp; Organic Growth Platform
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- POPUP -->
+
+<div class="popup-overlay" id="popup">
+
+  <div class="popup-box">
+
+    <button class="popup-close" id="close-popup">
+      &times;
+    </button>
+
+    <!-- BREVO FORM -->
+
+    <div class="sib-form" style="text-align:center; background-color:transparent;">
+
+      <div id="sib-form-container" class="sib-form-container">
+
+        <div id="sib-container" class="sib-container--large sib-container--vertical">
+
+          <form
+            id="sib-form"
+            method="POST"
+            action="https://c4557b20.sibforms.com/serve/MUIFALNefZV0MKIWNjH9CTywXxYElB0ofsOpPNZPESSwNSohhM9CrbeT-f7bAVVaN8PCheKkm1dRhjcYPAqMhlZGeLODviBNYdf9kocx52O1-2AOq5J0dkKFP0wggQ29Ar_sc6bN6eneCGzIcjzTBjUQtpPaDb7R6syQugjtrh29Xy3aKSiGms-uga8dQvBo-FnziIbKXZxeQR-agw=="
+            target="hidden_iframe"
+            onsubmit="showSuccessMessage(); return true;">
+
+            <div style="padding:8px 0;">
+              <div class="sib-form-block" style="text-align:left;">
+                <p style="font-size:30px; font-weight:800; color:white; margin-bottom:10px;">
+                  Get Free SEO Insights 🚀
+                </p>
+              </div>
+            </div>
+
+            <div style="padding:8px 0;">
+              <div class="sib-form-block" style="text-align:left;">
+                <div class="sib-text-form-block">
+                  <p>
+                    Join Rank With Hitesh and receive practical SEO, blogging, and organic growth strategies directly in your inbox.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding:8px 0;">
+              <div class="sib-input sib-form-block">
+                <div class="form__entry entry_block">
+                  <div class="form__label-row">
+                    <label class="entry__label" for="EMAIL" data-required="*">
+                      Enter Your Email Address
+                    </label>
+                    <div class="entry__field">
+                      <input
+                        class="input"
+                        type="email"
+                        id="EMAIL"
+                        name="EMAIL"
+                        autocomplete="off"
+                        placeholder="Your Email Address"
+                        data-required="true"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <label class="entry__specification">
+                    No spam. Only practical SEO tips &amp; updates.
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding:15px 0 0;">
+              <div class="sib-form-block" style="text-align:left;">
+                <button
+                  class="sib-form-block__button sib-form-block__button-with-loader"
+                  form="sib-form"
+                  type="submit">
+                  SUBSCRIBE NOW
+                </button>
+              </div>
+            </div>
+
+            <input type="text" name="email_address_check" value="" class="input--hidden">
+            <input type="hidden" name="locale" value="en">
+            <input type="hidden" name="html_type" value="simple">
+
+          </form>
+
+          <iframe
+            name="hidden_iframe"
+            style="display:none;">
+          </iframe>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- JS -->
+
+<script>
+
+/* MOBILE MENU */
+
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+
+if(menuToggle){
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+}
+
+/* DYNAMIC YEAR */
+
+const year = document.getElementById("year");
+
+if(year){
+  year.innerHTML = new Date().getFullYear();
+}
+
+/* POPUP */
+
+const popup = document.getElementById('popup');
+
+const closePopup = document.getElementById('close-popup');
+
+/* SHOW POPUP AFTER 7 SEC */
+
+window.addEventListener('load', () => {
+
+  setTimeout(() => {
+
+    if(popup){
+      popup.classList.add('active');
+    }
+
+  }, 7000);
+
+});
+
+/* CLOSE POPUP */
+
+if(closePopup){
+
+  closePopup.addEventListener('click', () => {
+
+    popup.classList.remove('active');
+
+  });
+
+}
+
+/* CLOSE WITH ESC KEY */
+
+document.addEventListener('keydown', (e) => {
+
+  if(e.key === 'Escape' && popup){
+
+    popup.classList.remove('active');
+
+  }
+
+});
+
+/* CLOSE WHEN CLICK OUTSIDE */
+
+if(popup){
+
+  popup.addEventListener('click', (e) => {
+
+    if(e.target === popup){
+
+      popup.classList.remove('active');
+
+    }
+
+  });
+
+}
+
+/* FAQ */
+
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+
+  const question = item.querySelector('.faq-question');
+
+  if(question){
+
+    question.addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+
+  }
+
+});
+
+function showSuccessMessage(){
+
+  popup.classList.remove('active');
+
+  alert("Thanks for subscribing 🚀");
+
+}
+
+</script>
+
+</body>
+</html>
