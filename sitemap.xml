@@ -42,6 +42,14 @@
     <priority>0.8</priority>
   </url>
 
+   <!-- NEW BLOG POST -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/on-page-seo-checklist-beginners.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url> 
+
   <!-- CONTACT -->
   <url>
     <loc>https://rankwithhitesh.github.io/contact.html</loc>
