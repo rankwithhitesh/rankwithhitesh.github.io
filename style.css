@@ -1080,3 +1080,12 @@ z-index: 10000;
 .table-of-contents a:hover{
   color:#7c3aed;
 }
+
+.blog-content h2 a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-content h2 a:hover{
+  text-decoration: underline;
+}
