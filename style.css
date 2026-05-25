@@ -1081,11 +1081,13 @@ z-index: 10000;
   color:#7c3aed;
 }
 
-.blog-content h2 a{
+.blog-content h2 a,
+.blog-content h3 a{
   color: inherit;
   text-decoration: none;
 }
 
-.blog-content h2 a:hover{
+.blog-content h2 a:hover,
+.blog-content h3 a:hover{
   text-decoration: underline;
 }
