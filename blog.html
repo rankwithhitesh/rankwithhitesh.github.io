@@ -476,97 +476,10 @@ style="display:none;">
 </div>
 
 </div>
-  
-<!-- JS -->
-
-<script>
-
-/* MOBILE MENU */
-
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.getElementById('nav-links');
-
-menuToggle.addEventListener('click', () => {
-navLinks.classList.toggle('active');
-});
-
-/* DYNAMIC YEAR */
-
-document.getElementById("year").innerHTML = new Date().getFullYear();
-
-/* POPUP */
-
-const popup = document.getElementById('popup');
-
-const closePopup = document.getElementById('close-popup');
-
-/* SHOW POPUP AFTER 7 SEC */
-
-window.addEventListener('load', () => {
-
-setTimeout(() => {
-
-if(popup){
-
-popup.classList.add('active');
-
-}
-
-}, 7000);
-
-});
-
-/* CLOSE POPUP */
-
-if(closePopup){
-
-closePopup.addEventListener('click', () => {
-
-popup.classList.remove('active');
-
-});
-
-}
-
-/* CLOSE WITH ESC KEY */
-
-document.addEventListener('keydown', (e) => {
-
-if(e.key === 'Escape' && popup){
-
-popup.classList.remove('active');
-
-}
-
-});
-
-/* CLOSE WHEN CLICK OUTSIDE */
-
-if(popup){
-
-popup.addEventListener('click', (e) => {
-
-if(e.target === popup){
-
-popup.classList.remove('active');
-
-}
-
-});
-
-}
-
-function showSuccessMessage(){
-
-popup.classList.remove('active');
-
-alert("Thanks for subscribing 🚀");
-
-}
- 
-</script>
 
 <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>  
+
+<script defer src="script.js"></script>
   
 </body>
 
