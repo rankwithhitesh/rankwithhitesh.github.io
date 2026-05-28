@@ -948,14 +948,31 @@ opacity:1;
 
 .popup-close{
 position:absolute;
-top:18px;
-right:18px;
-background:none;
-border:none;
-color:white;
+top:16px;
+right:16px;
+width:40px;
+height:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:transparent !important;
+border:none !important;
+box-shadow:none !important;
+padding:0 !important;
+margin:0 !important;
+color:#ffffff !important;
 font-size:28px;
+font-weight:400;
+line-height:1;
 cursor:pointer;
-z-index:10;
+z-index:10001;
+border-radius:50%;
+transition:0.3s ease;
+}
+
+.popup-close:hover{
+background:rgba(255,255,255,0.08) !important;
+transform:none !important;
 }
 
 /* BREVO FIXES */
@@ -1021,7 +1038,7 @@ color: #d1d5db !important;
 line-height: 1.6;
 }
 
-.popup-box button {
+.popup-box form button {
 width: 100%;
 background: #fff !important;
 color: #000 !important;
@@ -1030,9 +1047,10 @@ padding: 14px;
 font-weight: 700;
 cursor: pointer;
 transition: 0.3s ease;
+border-radius:14px;
 }
 
-.popup-box button:hover {
+.popup-box form button:hover {
 opacity: 0.9;
 }
 
@@ -1090,4 +1108,17 @@ z-index: 10000;
 .blog-content h2 a:hover,
 .blog-content h3 a:hover{
   text-decoration: underline;
+}
+
+.popup-box h2{
+font-size:38px;
+margin-bottom:14px;
+line-height:1.2;
+}
+
+.popup-box p{
+color:#cfcfcf;
+line-height:1.8;
+margin-bottom:24px;
+font-size:16px;
 }
