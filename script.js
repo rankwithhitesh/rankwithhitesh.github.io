@@ -109,3 +109,29 @@ function showSuccessMessage() {
   }
 
 }
+
+javascript id="lwp7e5"
+console.log("SCRIPT LOADED");
+
+const popup = document.getElementById('popup');
+
+console.log(popup);
+
+window.addEventListener('load', () => {
+
+  console.log("WINDOW LOADED");
+
+  setTimeout(() => {
+
+    console.log("POPUP SHOULD OPEN");
+
+    if (popup) {
+      popup.classList.add('active');
+      console.log("ACTIVE CLASS ADDED");
+    } else {
+      console.log("POPUP NOT FOUND");
+    }
+
+  }, 7000);
+
+});
