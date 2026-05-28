@@ -1,64 +1,49 @@
-<!-- JS -->
-
-<script>
-
+```javascript
 /* MOBILE MENU */
 
 const menuToggle = document.getElementById('menu-toggle');
-
 const navLinks = document.getElementById('nav-links');
 
-if(menuToggle){
-
-menuToggle.addEventListener('click', () => {
-
-navLinks.classList.toggle('active');
-
-});
-
+if (menuToggle) {
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
 }
 
 /* DYNAMIC YEAR */
 
-const year = document.getElementById("year");
+const year = document.getElementById('year');
 
-if(year){
-
-year.innerHTML = new Date().getFullYear();
-
+if (year) {
+  year.innerHTML = new Date().getFullYear();
 }
 
 /* POPUP */
 
 const popup = document.getElementById('popup');
-
 const closePopup = document.getElementById('close-popup');
 
-/* SHOW POPUP AFTER 7 SEC */
+/* SHOW POPUP AFTER 7 SECONDS */
 
 window.addEventListener('load', () => {
 
-setTimeout(() => {
+  setTimeout(() => {
 
-if(popup){
+    if (popup) {
+      popup.classList.add('active');
+    }
 
-popup.classList.add('active');
-
-}
-
-}, 7000);
+  }, 7000);
 
 });
 
-/* CLOSE POPUP */
+/* CLOSE POPUP BUTTON */
 
-if(closePopup){
+if (closePopup) {
 
-closePopup.addEventListener('click', () => {
-
-popup.classList.remove('active');
-
-});
+  closePopup.addEventListener('click', () => {
+    popup.classList.remove('active');
+  });
 
 }
 
@@ -66,82 +51,62 @@ popup.classList.remove('active');
 
 document.addEventListener('keydown', (e) => {
 
-if(e.key === 'Escape' && popup){
-
-popup.classList.remove('active');
-
-}
+  if (e.key === 'Escape' && popup) {
+    popup.classList.remove('active');
+  }
 
 });
 
 /* CLOSE WHEN CLICK OUTSIDE */
 
-if(popup){
+if (popup) {
 
-popup.addEventListener('click', (e) => {
+  popup.addEventListener('click', (e) => {
 
-if(e.target === popup){
+    if (e.target === popup) {
+      popup.classList.remove('active');
+    }
 
-popup.classList.remove('active');
-
-}
-
-});
+  });
 
 }
 
-function showSuccessMessage(){
+/* SUCCESS MESSAGE */
 
-setTimeout(() => {
+function showSuccessMessage() {
 
-const popupBox = document.querySelector('.popup-box');
+  const popupBox = document.querySelector('.popup-box');
 
-if(popupBox){
+  if (popupBox) {
 
-popupBox.innerHTML = `
+    popupBox.innerHTML = `
+    
+      <button class="popup-close" id="close-popup-success">
+        ×
+      </button>
 
-<button class="popup-close" id="close-popup-success">
-×
-</button>
+      <h2 style="margin-bottom:15px;">
+        Thank You 🚀
+      </h2>
 
-<h2 style="margin-bottom:15px;">
-Thank You 🚀
-</h2>
+      <p style="color:#9f9f9f; line-height:1.8;">
+        You have successfully subscribed to Rank With Hitesh.
+        Check your inbox for SEO updates and blogging tips.
+      </p>
 
-<p style="color:#9f9f9f; line-height:1.8;">
-You have successfully subscribed to Rank With Hitesh.
-Check your inbox for SEO updates and blogging tips.
-</p>
+    `;
 
-`;
+    const closeBtn = document.getElementById('close-popup-success');
 
-const closeBtn = document.getElementById('close-popup-success');
+    if (closeBtn) {
 
-if(closeBtn){
+      closeBtn.addEventListener('click', () => {
+        document.getElementById('popup').classList.remove('active');
+      });
 
-closeBtn.addEventListener('click', () => {
+    }
 
-document.getElementById('popup').classList.remove('active');
-
-});
-
-}
-
-}
-
-},1000);
-
-} 
-
-
-popup.classList.remove('active');
-
-alert("Thanks for subscribing 🚀");
+  }
 
 }
- 
-</script>
-
-
-</script>
-
+```
