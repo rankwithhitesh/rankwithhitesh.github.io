@@ -1,10 +1,9 @@
-javascript
 /* MOBILE MENU */
 
 const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.getElementById('nav-links');
 
-if (menuToggle) {
+if (menuToggle && navLinks) {
   menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
@@ -27,10 +26,17 @@ const closePopup = document.getElementById('close-popup');
 
 window.addEventListener('load', () => {
 
+  console.log('WINDOW LOADED');
+
   setTimeout(() => {
+
+    console.log('POPUP SHOULD OPEN');
 
     if (popup) {
       popup.classList.add('active');
+      console.log('ACTIVE CLASS ADDED');
+    } else {
+      console.log('POPUP NOT FOUND');
     }
 
   }, 7000);
@@ -39,7 +45,7 @@ window.addEventListener('load', () => {
 
 /* CLOSE POPUP BUTTON */
 
-if (closePopup) {
+if (closePopup && popup) {
 
   closePopup.addEventListener('click', () => {
     popup.classList.remove('active');
@@ -80,7 +86,6 @@ function showSuccessMessage() {
   if (popupBox) {
 
     popupBox.innerHTML = `
-    
       <button class="popup-close" id="close-popup-success">
         ×
       </button>
@@ -93,7 +98,6 @@ function showSuccessMessage() {
         You have successfully subscribed to Rank With Hitesh.
         Check your inbox for SEO updates and blogging tips.
       </p>
-
     `;
 
     const closeBtn = document.getElementById('close-popup-success');
@@ -101,7 +105,11 @@ function showSuccessMessage() {
     if (closeBtn) {
 
       closeBtn.addEventListener('click', () => {
-        document.getElementById('popup').classList.remove('active');
+
+        if (popup) {
+          popup.classList.remove('active');
+        }
+
       });
 
     }
@@ -110,27 +118,5 @@ function showSuccessMessage() {
 
 }
 
-console.log("SCRIPT LOADED");
-
-const popup = document.getElementById('popup');
-
+console.log('SCRIPT LOADED');
 console.log(popup);
-
-window.addEventListener('load', () => {
-
-  console.log("WINDOW LOADED");
-
-  setTimeout(() => {
-
-    console.log("POPUP SHOULD OPEN");
-
-    if (popup) {
-      popup.classList.add('active');
-      console.log("ACTIVE CLASS ADDED");
-    } else {
-      console.log("POPUP NOT FOUND");
-    }
-
-  }, 7000);
-
-});
