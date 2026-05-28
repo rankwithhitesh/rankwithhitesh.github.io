@@ -332,128 +332,132 @@ Email
 
 <div class="popup-overlay" id="popup">
 
-<div class="popup-box">
+  <div class="popup-box">
 
-<button class="popup-close" id="close-popup">
-×
-</button>
+    <button class="popup-close" id="close-popup">
+      ×
+    </button>
 
-<!-- BREVO FORM -->
+    <!-- BREVO FORM -->
 
-<div class="sib-form" style="text-align:center; background-color:transparent;">
+    <div class="sib-form" style="text-align:center; background-color:transparent;">
 
-<div id="sib-form-container" class="sib-form-container">
+      <div id="popup-sib-form-container" class="sib-form-container">
 
-<div id="sib-container" class="sib-container--large sib-container--vertical">
+        <div id="popup-sib-container" class="sib-container sib-container--large sib-container--vertical">
 
-<form
-id="popup-sib-form"
-method="POST"
-action="https://c4557b20.sibforms.com/serve/MUIFALNefZV0MKIWNjH9CTywXxYElB0ofsOpPNZPESSwNSohhM9CrbeT-f7bAVVaN8PCheKkm1dRhjcYPAqMhlZGeLODviBNYdf9kocx52O1-2AOq5J0dkKFP0wggQ29Ar_sc6bN6eneCGzIcjzTBjUQtpPaDb7R6syQugjtrh29Xy3aKSiGms-uga8dQvBo-FnziIbKXZxeQR-agw=="
-target="hidden_iframe"
-onsubmit="showSuccessMessage(); return true;"
->
- 
-<div style="padding:8px 0;">
+          <form
+            id="popup-sib-form"
+            method="POST"
+            action="https://c4557b20.sibforms.com/serve/MUIFALNefZV0MKIWNjH9CTywXxYElB0ofsOpPNZPESSwNSohhM9CrbeT-f7bAVVaN8PCheKkm1dRhjcYPAqMhlZGeLODviBNYdf9kocx52O1-2AOq5J0dkKFP0wggQ29Ar_sc6bN6eneCGzIcjzTBjUQtpPaDb7R6syQugjtrh29Xy3aKSiGms-uga8dQvBo-FnziIbKXZxeQR-agw=="
+            target="hidden_iframe"
+            onsubmit="showSuccessMessage(); return true;"
+          >
 
-<div class="sib-form-block" style="text-align:left;">
+            <div style="padding:8px 0;">
 
-<p style="font-size:30px; font-weight:800; color:white; margin-bottom:10px;">
-Get Free SEO Insights 🚀
-</p>
+              <div class="sib-form-block" style="text-align:left;">
 
-</div>
+                <p style="font-size:30px; font-weight:800; color:white; margin-bottom:10px;">
+                  Get Free SEO Insights 🚀
+                </p>
 
-</div>
+              </div>
 
-<div style="padding:8px 0;">
+            </div>
 
-<div class="sib-form-block" style="text-align:left;">
+            <div style="padding:8px 0;">
 
-<div class="sib-text-form-block">
+              <div class="sib-form-block" style="text-align:left;">
 
-<p>
-Join Rank With Hitesh and receive practical SEO, blogging, and organic growth strategies directly in your inbox.
-</p>
+                <div class="sib-text-form-block">
 
-</div>
+                  <p>
+                    Join Rank With Hitesh and receive practical SEO,
+                    blogging, and organic growth strategies directly in your inbox.
+                  </p>
 
-</div>
+                </div>
 
-</div>
+              </div>
 
-<div style="padding:8px 0;">
+            </div>
 
-<div class="sib-input sib-form-block">
+            <div style="padding:8px 0;">
 
-<div class="form__entry entry_block">
+              <div class="sib-input sib-form-block">
 
-<div class="form__label-row">
+                <div class="form__entry entry_block">
 
-<label class="entry__label" for="POPUP_EMAIL" data-required="*">
+                  <div class="form__label-row">
 
-Enter Your Email Address
+                    <label class="entry__label" for="POPUP_EMAIL" data-required="*">
+                      Enter Your Email Address
+                    </label>
 
-</label>
+                    <div class="entry__field">
 
-<div class="entry__field">
+                      <input
+                        class="input"
+                        type="email"
+                        id="POPUP_EMAIL"
+                        name="EMAIL"
+                        autocomplete="off"
+                        placeholder="Your Email Address"
+                        data-required="true"
+                        required
+                      />
 
-<input
-class="input"
-type="email"
-id="POPUP_EMAIL"
-name="EMAIL"
-autocomplete="off"
-placeholder="Your Email Address"
-data-required="true"
-required
-/>
+                    </div>
 
-</div>
+                  </div>
 
-</div>
+                  <label class="entry__specification">
+                    No spam. Only practical SEO tips & updates.
+                  </label>
 
-<label class="entry__specification">
+                </div>
 
-No spam. Only practical SEO tips & updates.
+              </div>
 
-</label>
+            </div>
 
-</div>
+            <div style="padding:15px 0 0;">
 
-</div>
+              <div class="sib-form-block" style="text-align:left;">
 
-</div>
+                <button
+                  class="sib-form-block__button sib-form-block__button-with-loader"
+                  form="popup-sib-form"
+                  type="submit"
+                >
+                  SUBSCRIBE NOW
+                </button>
 
-<div style="padding:15px 0 0;">
+              </div>
 
-<div class="sib-form-block" style="text-align:left;">
+            </div>
 
-<button
-class="sib-form-block__button sib-form-block__button-with-loader"
-form="popup-sib-form"
-type="submit"
->
-SUBSCRIBE NOW
-</button>
+            <input
+              type="text"
+              name="email_address_check"
+              value=""
+              class="input--hidden"
+            >
 
-</div>
+            <input type="hidden" name="locale" value="en">
 
-</div>
+            <input type="hidden" name="html_type" value="simple">
 
-<input type="text" name="email_address_check" value="" class="input--hidden">
+          </form>
 
-<input type="hidden" name="locale" value="en">
+        </div>
 
-<input type="hidden" name="html_type" value="simple">
+      </div>
 
-</form>
+    </div>
 
-</div>
-</div>
-</div>
-
-</div>
+  </div>
 
 </div>
 
@@ -462,10 +466,9 @@ SUBSCRIBE NOW
 <script defer src="script.js"></script>
 
 <iframe
-name="hidden_iframe"
-style="display:none;">
+  name="hidden_iframe"
+  style="display:none;">
 </iframe>
 
 </body>
-
 </html>
