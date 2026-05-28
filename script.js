@@ -14,7 +14,7 @@ if (menuToggle && navLinks) {
 const year = document.getElementById('year');
 
 if (year) {
-  year.innerHTML = new Date().getFullYear();
+  year.textContent = new Date().getFullYear();
 }
 
 /* POPUP */
