@@ -1122,3 +1122,23 @@ line-height:1.8;
 margin-bottom:24px;
 font-size:16px;
 }
+
+/* FIX EXTRA WHITE BOX */
+
+.sib-form-message-panel,
+.sib-loading-block,
+.entry__error,
+.sib-form-message-panel--active,
+.sib-form-block__button-with-loader .form__loader,
+input.input--hidden {
+display:none !important;
+}
+
+/* FIX RANDOM EXTRA INPUT */
+
+.popup-box iframe,
+.popup-box .sib-form-message-panel,
+.popup-box .sib-loader,
+.popup-box .form__loader {
+display:none !important;
+}
