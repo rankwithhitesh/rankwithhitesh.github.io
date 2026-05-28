@@ -328,83 +328,9 @@ Email
 
 </footer>
 
-<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script>
-
-/* MOBILE MENU */
-
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.getElementById('nav-links');
-
-menuToggle.addEventListener('click', () => {
-navLinks.classList.toggle('active');
-});
-
-/* DYNAMIC YEAR */
-
-document.getElementById("year").innerHTML = new Date().getFullYear();
-
-</script>
-
-</body>
-
-</html>
-
-<!-- SCRIPT -->
-<script>
-
-/* YEAR */
-document.getElementById("year").innerHTML = new Date().getFullYear();
-
-/* EMAILJS INIT */
-(function(){
-  emailjs.init("E8AL8H-_dRffo6TRv"); //
-})();
-
-/* FORM SUBMIT */
-document.getElementById("contactForm").addEventListener("submit", function(e){
-e.preventDefault();
-
-let submitBtn = document.getElementById("submitBtn");
-submitBtn.innerText = "Sending...";
-
-let data = {
-name: this.name.value,
-email: this.email.value,
-subject: this.subject.value,
-message: this.message.value
-};
-
-emailjs.send("service_t52uj26", "template_1euhxbg", data)
-.then(() => {
-
-document.getElementById("successMsg").style.display = "block";
-document.getElementById("errorMsg").style.display = "none";
-
-this.reset();
-submitBtn.innerText = "Send Message";
-
-setTimeout(() => {
-document.getElementById("successMsg").style.display = "none";
-}, 3000);
-
-})
-
-.catch(() => {
-
-document.getElementById("errorMsg").style.display = "block";
-submitBtn.innerText = "Send Message";
-
-setTimeout(() => {
-document.getElementById("errorMsg").style.display = "none";
-}, 3000);
-
-});
-
-});
-
-</script>
+<script defer src="script.js"></script>
 
 </body>
 </html>
