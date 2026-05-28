@@ -1,4 +1,4 @@
-```javascript
+javascript
 /* MOBILE MENU */
 
 const menuToggle = document.getElementById('menu-toggle');
@@ -109,4 +109,3 @@ function showSuccessMessage() {
   }
 
 }
-```
