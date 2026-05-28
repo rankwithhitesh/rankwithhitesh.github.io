@@ -110,7 +110,6 @@ function showSuccessMessage() {
 
 }
 
-javascript id="lwp7e5"
 console.log("SCRIPT LOADED");
 
 const popup = document.getElementById('popup');
