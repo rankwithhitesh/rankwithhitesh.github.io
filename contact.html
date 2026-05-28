@@ -398,10 +398,11 @@ Enter Your Email Address
 <input
 class="input"
 type="email"
-id="popup-email"
+id="EMAIL"
 name="EMAIL"
 autocomplete="off"
 placeholder="Your Email Address"
+data-required="true"
 required
 />
 
@@ -410,7 +411,9 @@ required
 </div>
 
 <label class="entry__specification">
+
 No spam. Only practical SEO tips & updates.
+
 </label>
 
 </div>
@@ -425,6 +428,7 @@ No spam. Only practical SEO tips & updates.
 
 <button
 class="sib-form-block__button sib-form-block__button-with-loader"
+form="sib-form"
 type="submit"
 >
 SUBSCRIBE NOW
@@ -434,24 +438,11 @@ SUBSCRIBE NOW
 
 </div>
 
-<input
-type="text"
-name="email_address_check"
-value=""
-class="input--hidden"
->
+<input type="text" name="email_address_check" value="" class="input--hidden">
 
-<input
-type="hidden"
-name="locale"
-value="en"
->
+<input type="hidden" name="locale" value="en">
 
-<input
-type="hidden"
-name="html_type"
-value="simple"
->
+<input type="hidden" name="html_type" value="simple">
 
 </form>
 
