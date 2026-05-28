@@ -501,71 +501,9 @@ SUBSCRIBE NOW
 
 </div>
 
-<!-- JS -->
+<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
 
-<script>
-
-/* MOBILE MENU */
-
-const menuToggle = document.getElementById('menu-toggle');
-
-const navLinks = document.getElementById('nav-links');
-
-if(menuToggle){
-
-menuToggle.addEventListener('click', () => {
-
-navLinks.classList.toggle('active');
-
-});
-
-}
-
-/* DYNAMIC YEAR */
-
-const year = document.getElementById("year");
-
-if(year){
-
-year.innerHTML = new Date().getFullYear();
-
-}
-
-/* POPUP */
-
-const popup = document.getElementById('popup');
-
-const closePopup = document.getElementById('close-popup');
-
-/* SHOW POPUP */
-
-window.addEventListener('load', () => {
-
-setTimeout(() => {
-
-if(popup){
-
-popup.classList.add('active');
-
-}
-
-}, 1500);
-
-});
-
-/* CLOSE POPUP */
-
-if(closePopup){
-
-closePopup.addEventListener('click', () => {
-
-popup.classList.remove('active');
-
-});
-
-}
-
-</script>
+<script defer src="script.js"></script> 
 
 </body>
 </html>
