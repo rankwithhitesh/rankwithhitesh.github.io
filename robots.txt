@@ -1,6 +1,6 @@
+Sitemap: https://rankwithhitesh.github.io/sitemap.xml
 User-agent: *
 Allow: /
 
 Disallow: /404.html
 
-Sitemap: https://rankwithhitesh.github.io/sitemap.xml
