@@ -98,6 +98,14 @@
     <priority>0.8</priority>
   </url>
 
+            <!-- NEW BLOG POST -->
+  <url>
+    <loc>https://rankwithhitesh.github.io/featured-snippet-optimization.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- CONTACT -->
   <url>
     <loc>https://rankwithhitesh.github.io/contact.html</loc>
